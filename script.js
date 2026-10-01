@@ -46,7 +46,7 @@ const playlistData = [
         { time: 171, original: "Fire burning warming sand", translation: "Fogo queimando, aquecendo a areia" },
         { time: 174, original: "Feed my horse and close the gate", translation: "Alimente meu cavalo e feche o portão" },
         { time: 177, original: "Draw the holy circle", translation: "Desenhe o círculo sagrado" },
-        { time: 195, original: "Fuck all", translation: "VÁ SE FODER" },
+        { time: 195, original: "FUCK OFF", translation: "VÁ SE FODER" },
         { time: 197, original: "Devil stay outside tonight", translation: "Diabo, fique lá fora está noite" },
         { time: 201, original: "FUCK OFF", translation: "VÁ SE FODER" },
         { time: 203, original: "This here house is holy ground", translation: "Esta casa é um lugar sagrado." },
