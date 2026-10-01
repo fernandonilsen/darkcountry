@@ -62,9 +62,15 @@ const playlistData = [
         src: "Graveyard Shift.mp3", // Nome exato do arquivo de áudio na sua pasta
         cover: "graveyard.png", // Nome da imagem da capa desta música (opcional)
         lyrics: [
-            { time: 5, original: "First line of the new song", translation: "Primeira linha da nova música" },
-            { time: 12, original: "Second line of the new song", translation: "Segunda linha da nova música" },
-            // ... (coloque os tempos e as letras da nova música aqui)
+            { time: 0, original: "Midnight strikes, the city goes dead", translation: "Primeira linha da nova música" },
+            { time: 6, original: "We don't sleep, we earn our bread", translation: "Segunda linha da nova música" },
+            { time: 10, original: "Punch the card", translation: "Segunda linha da nova música" },
+            { time: 10, original: "Let the engine roar", translation: "Segunda linha da nova música" },
+            { time: 10, original: "The halogen light has a sickening glow", translation: "Segunda linha da nova música" },
+            { time: 10, original: "On the graveyard shift where the minutes go slow", translation: "Segunda linha da nova música" },
+            { time: 10, original: "The midnight air is heavy and cold", translation: "Segunda linha da nova música" },
+            { time: 10, original: "I am the profit with the youth we sold", translation: "Segunda linha da nova música" },
+            
         ]
     }
 ];
