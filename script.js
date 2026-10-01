@@ -4,7 +4,7 @@ const playlistData = [
     title: "Say It Again",
     artist: "Dark Horizon",
     src: "Say It Again.mp4",
-    cover: "capa-dark-horizon.jpg", // Nome da imagem da capa na sua pasta
+    cover: "dark horizon.png", // Nome da imagem da capa na sua pasta
     lyrics: [
         { time: 26, original: "Snow falls hard on Christmas night", translation: "A neve cai forte na noite de Natal" },
         { time: 29, original: "Moon consume through frozen sky", translation: "A lua devora o céu congelado" },
