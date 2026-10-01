@@ -2,7 +2,7 @@
 const playlistData = [
     {
     title: "Say It Again",
-    artist: "Dark Horizon",
+    artist: "Dark Country",
     src: "Say It Again.mp4",
     cover: "dark horizon.png", // Nome da imagem da capa na sua pasta
     lyrics: [
@@ -55,8 +55,21 @@ const playlistData = [
         { time: 213, original: "FUCK OFF", translation: "VÁ SE FODER" },
         { time: 216, original: "Now the dark can't drag me down", translation: "Agora a escuridão não pode me derrubar." }
     ]
-}
+},
+{
+        title: "Graveyard Shift",
+        artist: "Dark Country",
+        src: "Graveyard Shift.mp3", // Nome exato do arquivo de áudio na sua pasta
+        cover: "graveyard.png", // Nome da imagem da capa desta música (opcional)
+        lyrics: [
+            { time: 5, original: "First line of the new song", translation: "Primeira linha da nova música" },
+            { time: 12, original: "Second line of the new song", translation: "Segunda linha da nova música" },
+            // ... (coloque os tempos e as letras da nova música aqui)
+        ]
+    }
 ];
+
+
 
 let currentTrackIndex = 0;
 
