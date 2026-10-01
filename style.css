@@ -60,7 +60,7 @@ body {
 }
 
 #playlist li.active {
-    background: #1db954;
+    background: #c46915;
     color: #fff;
     font-weight: bold;
 }
@@ -80,7 +80,8 @@ header {
 
 header h1 {
     font-size: 1.6rem;
-    color: #fff;
+    color: #c46915;
+    font-weight: bold;
 }
 
 header h2 {
@@ -149,15 +150,15 @@ button:hover {
 }
 
 #play-btn {
-    background-color: #1db954;
+    background-color: #c46915;
 }
 
 #play-btn:hover {
-    background-color: #1ed760;
+    background-color: #f8861b;
 }
 
 input[type="range"] {
-    accent-color: #1db954;
+    accent-color: #c46915;
     cursor: pointer;
 }
 
@@ -195,7 +196,7 @@ input[type="range"] {
 
 .lyric-box h3 {
     margin-bottom: 12px;
-    color: #1db954;
+    color: #c46915;
     border-bottom: 1px solid #333;
     padding-bottom: 8px;
     font-size: 1rem;
@@ -220,9 +221,9 @@ input[type="range"] {
 
 .lyric-line.active {
     color: #fff;
-    background: rgba(29, 185, 84, 0.2);
+    background: #c46a1534;
     font-weight: bold;
-    border-left: 3px solid #1db954;
+    border-left: 3px solid #c46915;
 }
 
 /* Responsivo para celulares */
