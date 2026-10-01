@@ -3,7 +3,8 @@ const playlistData = [
     {
     title: "Say It Again",
     artist: "Dark Horizon",
-    src: "Say It Again.mp4", // Certifique-se de que o nome do arquivo MP3 na pasta é este
+    src: "Say It Again.mp4",
+    cover: "capa-dark-horizon.jpg", // Nome da imagem da capa na sua pasta
     lyrics: [
         { time: 26, original: "Snow falls hard on Christmas night", translation: "A neve cai forte na noite de Natal" },
         { time: 29, original: "Moon consume through frozen sky", translation: "A lua devora o céu congelado" },
@@ -12,7 +13,7 @@ const playlistData = [
         { time: 45, original: "Through the forest through the frost", translation: "Pela floresta, através da geada" },
         { time: 48, original: "Through the swamp and through the rain", translation: "Pelo pântano e através da chuva" },
         { time: 51, original: "But my horse keeps pushing on", translation: "Mas meu cavalo continua insistindo" },
-        { time: 54, original: "Like he knows the holy way", translation: "Como se ele conhecesse o caminho sagrado." },
+        { time: 54, original: "Like he knows the holy way", translation: "Como se ele soubesse o caminho sagrado" },
         { time: 57, original: "Hear them screaming in the dark", translation: "Ouça-os gritar na escuridão" },
         { time: 60, original: "Feel them breathing down my neck", translation: "Sinto-os respirando no meu pescoço." },
         { time: 64, original: "FUCK OFF", translation: "VÁ SE FODER" },
