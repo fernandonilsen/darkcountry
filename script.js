@@ -100,6 +100,14 @@ function loadTrack(index) {
     originalLyricsEl.innerHTML = '';
     translatedLyricsEl.innerHTML = '';
 
+    // Atualizar a capa do álbum (se tiver a propriedade cover)
+    const albumArt = document.getElementById('album-art');
+    if (track.cover) {
+        albumArt.src = track.cover;
+    } else {
+        albumArt.src = 'dark horizon.png'; // Ou uma imagem padrão
+    }
+
     track.lyrics.forEach((line, i) => {
         const pOrig = document.createElement('p');
         pOrig.className = 'lyric-line';
