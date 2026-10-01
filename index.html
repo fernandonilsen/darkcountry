@@ -3,47 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Player com Letra e Tradução</title>
+    <title>Player de Música com Letra e Tradução Sincronizada</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
-        <header>
-            <h1>Say It Again</h1>
-            <h2>Dark Horizon</h2>
-        </header>
+    <div class="app-container">
+        <!-- Playlist Lateral -->
+        <aside class="playlist-sidebar">
+            <h3>🎵 Playlist</h3>
+            <ul id="playlist">
+                <!-- As músicas serão injetadas via JavaScript -->
+            </ul>
+        </aside>
 
-        <!-- Player de Áudio -->
-        <div class="player-container">
-            <audio id="audio" src="sua-musica.mp3"></audio>
-            <div class="controls">
-                <button id="play-btn">▶ Play</button>
-                <input type="range" id="progress" value="0" max="100" step="1">
-                <span id="time">0:00</span>
-            </div>
-        </div>
+        <!-- Container Principal do Player e Letras -->
+        <main class="main-content">
+            <header>
+                <h1 id="song-title">Selecione uma música</h1>
+                <h2 id="artist-name">Artista</h2>
+            </header>
 
-        <!-- Seção de Letras e Traduções -->
-        <div class="lyrics-section">
-            <div class="lyric-box">
-                <h3>Letra Original</h3>
-                <div class="text-content">
-                    <p>Line 1 of the original song...</p>
-                    <p>Line 2 of the original song...</p>
-                    <!-- Adicione mais versos aqui -->
+            <!-- Player de Áudio -->
+            <div class="player-container">
+                <audio id="audio"></audio>
+                
+                <div class="controls-top">
+                    <span id="current-time">0:00</span>
+                    <input type="range" id="progress" value="0" max="100" step="0.1">
+                    <span id="duration">0:00</span>
+                </div>
+
+                <div class="controls-bottom">
+                    <button id="prev-btn">⏮ Anterior</button>
+                    <button id="play-btn">▶ Play</button>
+                    <button id="next-btn">Próxima ⏭</button>
+                    
+                    <div class="volume-control">
+                        <span>🔊</span>
+                        <input type="range" id="volume" min="0" max="1" step="0.05" value="1">
+                    </div>
                 </div>
             </div>
 
-            <div class="lyric-box">
-                <h3>Tradução</h3>
-                <div class="text-content">
-                    <p>Linha 1 da música traduzida...</p>
-                    <p>Linha 2 da música traduzida...</p>
-                    <!-- Adicione mais versos aqui -->
+            <!-- Seção de Letras e Traduções Sincronizadas -->
+            <div class="lyrics-section">
+                <div class="lyric-box">
+                    <h3>Letra Original</h3>
+                    <div class="text-content" id="original-lyrics">
+                        <p class="lyric-line">Escolha uma música na playlist para começar...</p>
+                    </div>
+                </div>
+
+                <div class="lyric-box">
+                    <h3>Tradução</h3>
+                    <div class="text-content" id="translated-lyrics">
+                        <p class="lyric-line">Escolha uma música na playlist para começar...</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </main>
     </div>
 
     <script src="script.js"></script>
