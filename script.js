@@ -1,40 +1,60 @@
 // Dados das músicas (incluindo tempos em segundos para sincronizar as linhas)
 const playlistData = [
     {
-        title: "Say It Again",
-        artist: "Dark Horizon",
-        src: "Say It Again.mp4", // Substitua pelo caminho do seu arquivo de áudio
-        lyrics: [
-            { time: 26, original: "Snow falls hard on Christmas night", translation: "A neve cai com força na noite de Natal" },
-            { time: 29, original: "Moon descends through frozen sky", translation: "A lua desce através do céu congelado" },
-            { time: 33, original: "Black horse running wild and fast", translation: "Cavalo preto a correr livre e depressa" },
-            { time: 36, original: "In those devils close behind", translation: "E esses demónios logo atrás" }
-            { time: 45, original: "Through the forest through the false", translation: "E esses demónios logo atrás" }
-            { time: 48, original: "Through the swamp and through the rain", translation: "E esses demónios logo atrás" }
-            { time: 51, original: "But my horse keeps pushing on", translation: "E esses demónios logo atrás" }
-            { time: 54, original: "Like he knows the holy way", translation: "E esses demónios logo atrás" }
-            { time: 57, original: "Hear them screaming in the dark", translation: "E esses demónios logo atrás" }
-            { time: 60, original: "Feel them breathing down my neck", translation: "E esses demónios logo atrás" }
-            { time: 64, original: "Fuck all", translation: "E esses demónios logo atrás" }
-            { time: 67, original: "You ain't taking me tonight", translation: "E esses demónios logo atrás" }
-            { time: 36, original: "Fuck all", translation: "E esses demónios logo atrás" }
-            { time: 36, original: "Ride this horse through holy light", translation: "E esses demónios logo atrás" }
-            { time: 36, original: "Fuck all", translation: "E esses demónios logo atrás" }
-            { time: 36, original: "Hear my gun and hear it roar", translation: "E esses demónios logo atrás" }
-            { time: 36, original: "Fuck all", translation: "E esses demónios logo atrás" }
-
-        ]
-    },
-    {
-        title: "Segunda Canção",
-        artist: "Artista Dois",
-        src: "musica2.mp3", // Substitua pelo caminho do seu arquivo de áudio
-        lyrics: [
-            { time: 0, original: "Início da segunda música...", translation: "Inicio de la segunda canción..." },
-            { time: 6, original: "Segunda linha com tradução sincronizada.", translation: "Segunda línea con traducción sincronizada." },
-            { time: 12, original: "Último verso desta canção.", translation: "Último verso de esta canción." }
-        ]
-    }
+    title: "Say It Again",
+    artist: "Dark Horizon",
+    src: "Say It Again.mp4", // Certifique-se de que o nome do arquivo MP3 na pasta é este
+    lyrics: [
+        { time: 26, original: "Snow falls hard on Christmas night", translation: "A neve cai forte na noite de Natal" },
+        { time: 29, original: "Moon descends through frozen sky", translation: "A lua desce através do céu congelado" },
+        { time: 33, original: "Black horse running wild and fast", translation: "Cavalo preto correndo selvagem e rápido" },
+        { time: 36, original: "In those devils close behind", translation: "Com aqueles demônios bem de perto" },
+        { time: 45, original: "Through the forest through the false", translation: "Pela floresta, através da falsidade" },
+        { time: 48, original: "Through the swamp and through the rain", translation: "Pelo pântano e através da chuva" },
+        { time: 51, original: "But my horse keeps pushing on", translation: "Mas meu cavalo continua avançando" },
+        { time: 54, original: "Like he knows the holy way", translation: "Como se ele soubesse o caminho sagrado" },
+        { time: 57, original: "Hear them screaming in the dark", translation: "Ouça-os gritar no escuro" },
+        { time: 60, original: "Feel them breathing down my neck", translation: "Sinta-os respirando na minha nuca" },
+        { time: 64, original: "Fuck all", translation: "Foda-se tudo" },
+        { time: 67, original: "You ain't taking me tonight", translation: "Você não vai me levar esta noite" },
+        { time: 70, original: "Fuck all", translation: "Foda-se tudo" },
+        { time: 72, original: "Ride this horse through holy light", translation: "Cavalgue este cavalo através da luz sagrada" },
+        { time: 76, original: "Fuck all", translation: "Foda-se tudo" },
+        { time: 79, original: "Hear my gun and hear it roar", translation: "Ouça minha arma e ouça-a rugir" },
+        { time: 82, original: "Fuck all", translation: "Foda-se tudo" },
+        { time: 85, original: "I'm riding home forevermore", translation: "Estou cavalgando para casa para todo o sempre" },
+        { time: 94, original: "Cross river cold and black", translation: "Atravessando o rio frio e negro" },
+        { time: 98, original: "Hear those demons in the trees", translation: "Ouça aqueles demônios nas árvores" },
+        { time: 100, original: "Though the eye and let it sing", translation: "Através do olho e deixe-o cantar" },
+        { time: 103, original: "Hear them crying in the breeze", translation: "Ouça-os chorar na brisa" },
+        { time: 106, original: "Through the marsh and through the mud", translation: "Pelo pântano e através da lama" },
+        { time: 109, original: "Through the shadows through the snow", translation: "Através das sombras, através da neve" },
+        { time: 112, original: "But my horse just keeps on flying", translation: "Mas meu cavalo continua voando" },
+        { time: 115, original: "Like a ghost I'll never slow", translation: "Como um fantasma, nunca vou desacelerar" },
+        { time: 118, original: "Hear them howling in the dark", translation: "Ouça-os uivar no escuro" },
+        { time: 121, original: "But I see my porch light glow", translation: "Mas vejo a luz da minha varanda brilhar" },
+        { time: 125, original: "Fuck all", translation: "Foda-se tudo" },
+        { time: 128, original: "You ain't taking me tonight", translation: "Você não vai me levar esta noite" },
+        { time: 131, original: "Fuck all", translation: "Foda-se tudo" },
+        { time: 133, original: "Ride this horse through holy light", translation: "Cavalgue este cavalo através da luz sagrada" },
+        { time: 137, original: "Fuck all", translation: "Foda-se tudo" },
+        { time: 140, original: "Hear my gun and hear it roar", translation: "Ouça minha arma e ouça-a rugir" },
+        { time: 143, original: "Fuck all", translation: "Foda-se tudo" },
+        { time: 146, original: "I'm riding home forevermore", translation: "Estou cavalgando para casa para todo o sempre" },
+        { time: 168, original: "Stands waiting by the door", translation: "Fica esperando junto à porta" },
+        { time: 171, original: "Fire burning warming sand", translation: "Fogo queimando, aquecendo a areia" },
+        { time: 174, original: "Feed my horse and close the gate", translation: "Alimente meu cavalo e feche o portão" },
+        { time: 177, original: "Draw the holy circle", translation: "Trace o círculo sagrado" },
+        { time: 195, original: "Fuck all", translation: "Foda-se tudo" },
+        { time: 197, original: "Devil stay outside tonight", translation: "Diabo, fique do lado de fora esta noite" },
+        { time: 201, original: "Fuck all", translation: "Foda-se tudo" },
+        { time: 203, original: "This here house is holy ground", translation: "Esta casa aqui é terra sagrada" },
+        { time: 207, original: "Fuck all", translation: "Foda-se tudo" },
+        { time: 210, original: "Hear my horse he brought me home", translation: "Ouça meu cavalo, ele me trouxe para casa" },
+        { time: 213, original: "Fuck all", translation: "Foda-se tudo" },
+        { time: 216, original: "Now the dark can't drag me down", translation: "Agora a escuridão não pode me arrastar para baixo" }
+    ]
+}
 ];
 
 let currentTrackIndex = 0;
@@ -161,9 +181,13 @@ function syncLyrics(currentTime) {
     lines.forEach((line, i) => {
         if (i === activeIndex) {
             if (!line.classList.contains('active')) {
+                // Ativa e rola a linha original
                 line.classList.add('active');
-                transLines[i].classList.add('active');
                 line.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+                // Ativa e rola a linha da tradução juntas!
+                transLines[i].classList.add('active');
+                transLines[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
             }
         } else {
             line.classList.remove('active');
