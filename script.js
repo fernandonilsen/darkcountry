@@ -5,10 +5,10 @@ const playlistData = [
         artist: "Dark Horizon",
         src: "Say It Again.mp4", // Substitua pelo caminho do seu arquivo de áudio
         lyrics: [
-            { time: 0, original: "Snow falls hard on Christmas night", translation: "A neve cai com força na noite de Natal" },
-            { time: 5, original: "Moon descends through frozen sky", translation: "A lua desce através do céu congelado" },
-            { time: 10, original: "Black horse running wild and fast", translation: "Cavalo preto a correr livre e depressa" },
-            { time: 15, original: "In those devils close behind", translation: "E esses demónios logo atrás" }
+            { time: 26, original: "Snow falls hard on Christmas night", translation: "A neve cai com força na noite de Natal" },
+            { time: 29, original: "Moon descends through frozen sky", translation: "A lua desce através do céu congelado" },
+            { time: 33, original: "Black horse running wild and fast", translation: "Cavalo preto a correr livre e depressa" },
+            { time: 36, original: "In those devils close behind", translation: "E esses demónios logo atrás" }
         ]
     },
     {
