@@ -6,10 +6,10 @@ const playlistData = [
     src: "Say It Again.mp4", // Certifique-se de que o nome do arquivo MP3 na pasta é este
     lyrics: [
         { time: 26, original: "Snow falls hard on Christmas night", translation: "A neve cai forte na noite de Natal" },
-        { time: 29, original: "Moon descends through frozen sky", translation: "A lua desce através do céu congelado" },
+        { time: 29, original: "Moon consume through frozen sky", translation: "A lua devora o céu congelado" },
         { time: 33, original: "Black horse running wild and fast", translation: "Cavalo preto correndo selvagem e rápido" },
-        { time: 36, original: "In those devils close behind", translation: "Com aqueles demônios bem de perto" },
-        { time: 45, original: "Through the forest through the false", translation: "Pela floresta, através da falsidade" },
+        { time: 36, original: "In those devils close behind", translation: "Com aqueles demônios logo atrás" },
+        { time: 45, original: "Through the forest through the frost", translation: "Pela floresta, através da geada" },
         { time: 48, original: "Through the swamp and through the rain", translation: "Pelo pântano e através da chuva" },
         { time: 51, original: "But my horse keeps pushing on", translation: "Mas meu cavalo continua avançando" },
         { time: 54, original: "Like he knows the holy way", translation: "Como se ele soubesse o caminho sagrado" },
