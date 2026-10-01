@@ -62,14 +62,23 @@ const playlistData = [
         src: "Graveyard Shift.mp3", // Nome exato do arquivo de áudio na sua pasta
         cover: "graveyard.png", // Nome da imagem da capa desta música (opcional)
         lyrics: [
-            { time: 0, original: "Midnight strikes, the city goes dead", translation: "Primeira linha da nova música" },
-            { time: 6, original: "We don't sleep, we earn our bread", translation: "Segunda linha da nova música" },
-            { time: 10, original: "Punch the card", translation: "Segunda linha da nova música" },
-            { time: 10, original: "Let the engine roar", translation: "Segunda linha da nova música" },
-            { time: 10, original: "The halogen light has a sickening glow", translation: "Segunda linha da nova música" },
-            { time: 10, original: "On the graveyard shift where the minutes go slow", translation: "Segunda linha da nova música" },
-            { time: 10, original: "The midnight air is heavy and cold", translation: "Segunda linha da nova música" },
-            { time: 10, original: "I am the profit with the youth we sold", translation: "Segunda linha da nova música" },
+            { time: 0, original: "Midnight strikes, the city goes dead", translation: "A meia-noite soa, a cidade morre" },
+            { time: 6, original: "We don't sleep, we earn our bread", translation: "Nós não dormimos, ganhamos o nosso pão" },
+            { time: 10, original: "Punch the card", translation: "Perfure o cartão" },
+            { time: 15, original: "Let the engine roar", translation: "Deixe o motor rugir" },
+            { time: 26, original: "The halogen light has a sickening glow", translation: "A lâmpada halógena tem um brilho nauseante." },
+            { time: 32, original: "On the graveyard shift where the minutes go slow", translation: "No turno da madrugada, onde os minutos passam devagar" },
+            { time: 38, original: "The midnight air is heavy and cold", translation: "O ar da meia-noite está pesado e frio." },
+            { time: 44, original: "I am the profit with the youth we sold", translation: "Eu sou o lucro com os jovens que vendemos." },
+            { time: 50, original: "Everyone sleeping in a warm soft bed", translation: "Todos dormindo em uma cama macia e quentinha." },
+            { time: 54, original: "While I'm keeping the fires of the engine fed", translation: "Enquanto eu mantenho alimentando o fogo do motor" },
+            { time: 59, original: "Oh, I am the ghost in the middle of the night", translation: "Oh, eu sou o fantasma no meio da noite." },
+            { time: 64, original: "Working in the shadow so you have the light", translation: "Trabalhando na sombra para que você tenha a luz." },
+            { time: 10, original: "You count your dollars while I count the hours", translation: "Você conta seus dólares enquanto eu conto as horas." },
+            { time: 10, original: "Under the smoke of the factory towers", translation: "Sob a fumaça das torres da fábrica" },
+            { time: 10, original: "Yeah, the world is asleep, but the machine never dies", translation: "Sim, o mundo está adormecido, mas a máquina nunca morre." },
+            { time: 10, original: "And the graveyard shift is where my future lies", translation: "E é no turno da noite que reside o meu futuro." },
+
             
         ]
     }
