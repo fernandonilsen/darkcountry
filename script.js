@@ -4,7 +4,7 @@ const playlistData = [
     title: "Say It Again",
     artist: "Dark Country",
     src: "Say It Again.mp4",
-    cover: "dark horizon.png", // Nome da imagem da capa na sua pasta
+    cover: "dark horizon.png", // Nome da imagem da capa
     lyrics: [
         { time: 26, original: "Snow falls hard on Christmas night", translation: "A neve cai forte na noite de Natal" },
         { time: 29, original: "Moon consume through frozen sky", translation: "A lua devora o céu congelado" },
@@ -59,7 +59,7 @@ const playlistData = [
 {
         title: "Graveyard Shift",
         artist: "Dark Country",
-        src: "Graveyard Shift.mp3", // Nome exato do arquivo de áudio na sua pasta
+        src: "Graveyard Shift.mp3", // Nome do arquivo de áudio
         cover: "graveyard.png", // Nome da imagem da capa desta música (opcional)
         lyrics: [
             { time: 7, original: "Midnight strikes, the city goes dead", translation: "A meia-noite soa, a cidade morre" },
@@ -78,8 +78,6 @@ const playlistData = [
             { time: 62, original: "Under the smoke of the factory towers", translation: "Sob a fumaça das torres da fábrica" },
             { time: 65, original: "Yeah, the world is asleep, but the machine never dies", translation: "Sim, o mundo está adormecido, mas a máquina nunca morre." },
             { time: 69, original: "And the graveyard shift is where my future lies", translation: "E é no turno da noite que reside o meu futuro." },
-
-            
         ]
     }
 ];
