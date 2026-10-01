@@ -94,6 +94,10 @@ header h2 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+}
+
 /* Estilo para a Capa do Álbum */
 .album-art-container {
     width: 130px;
