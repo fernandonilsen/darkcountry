@@ -9,6 +9,20 @@ const playlistData = [
             { time: 29, original: "Moon descends through frozen sky", translation: "A lua desce através do céu congelado" },
             { time: 33, original: "Black horse running wild and fast", translation: "Cavalo preto a correr livre e depressa" },
             { time: 36, original: "In those devils close behind", translation: "E esses demónios logo atrás" }
+            { time: 45, original: "Through the forest through the false", translation: "E esses demónios logo atrás" }
+            { time: 48, original: "Through the swamp and through the rain", translation: "E esses demónios logo atrás" }
+            { time: 51, original: "But my horse keeps pushing on", translation: "E esses demónios logo atrás" }
+            { time: 54, original: "Like he knows the holy way", translation: "E esses demónios logo atrás" }
+            { time: 57, original: "Hear them screaming in the dark", translation: "E esses demónios logo atrás" }
+            { time: 60, original: "Feel them breathing down my neck", translation: "E esses demónios logo atrás" }
+            { time: 64, original: "Fuck all", translation: "E esses demónios logo atrás" }
+            { time: 67, original: "You ain't taking me tonight", translation: "E esses demónios logo atrás" }
+            { time: 36, original: "Fuck all", translation: "E esses demónios logo atrás" }
+            { time: 36, original: "Ride this horse through holy light", translation: "E esses demónios logo atrás" }
+            { time: 36, original: "Fuck all", translation: "E esses demónios logo atrás" }
+            { time: 36, original: "Hear my gun and hear it roar", translation: "E esses demónios logo atrás" }
+            { time: 36, original: "Fuck all", translation: "E esses demónios logo atrás" }
+
         ]
     },
     {
