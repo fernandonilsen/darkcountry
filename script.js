@@ -62,8 +62,8 @@ const playlistData = [
         src: "Graveyard Shift.mp3", // Nome exato do arquivo de áudio na sua pasta
         cover: "graveyard.png", // Nome da imagem da capa desta música (opcional)
         lyrics: [
-            { time: 0, original: "Midnight strikes, the city goes dead", translation: "A meia-noite soa, a cidade morre" },
-            { time: 6, original: "We don't sleep, we earn our bread", translation: "Nós não dormimos, ganhamos o nosso pão" },
+            { time: 7, original: "Midnight strikes, the city goes dead", translation: "A meia-noite soa, a cidade morre" },
+            { time: 8, original: "We don't sleep, we earn our bread", translation: "Nós não dormimos, ganhamos o nosso pão" },
             { time: 10, original: "Punch the card", translation: "Perfure o cartão" },
             { time: 15, original: "Let the engine roar", translation: "Deixe o motor rugir" },
             { time: 26, original: "The halogen light has a sickening glow", translation: "A lâmpada halógena tem um brilho nauseante." },
