@@ -1,14 +1,14 @@
 // Dados das músicas (incluindo tempos em segundos para sincronizar as linhas)
 const playlistData = [
     {
-        title: "Exemplo de Música 1",
-        artist: "Artista Um",
-        src: "musica1.mp3", // Substitua pelo caminho do seu arquivo de áudio
+        title: "Say It Again",
+        artist: "Dark Horizon",
+        src: "Say It Again.mp4", // Substitua pelo caminho do seu arquivo de áudio
         lyrics: [
-            { time: 0, original: "Esta é a primeira linha cantada...", translation: "Esta es la primera línea cantada..." },
-            { time: 5, original: "A música começa a acelerar...", translation: "La música empieza a acelerar..." },
-            { time: 10, original: "Refrão marcante ecoa aqui...", translation: "¡Estribillo pegadizo resuena aquí!" },
-            { time: 15, original: "Finalizando esta faixa de exemplo.", translation: "Finalizando esta pista de ejemplo." }
+            { time: 0, original: "Snow falls hard on Christmas night", translation: "A neve cai com força na noite de Natal" },
+            { time: 5, original: "Moon descends through frozen sky", translation: "A lua desce através do céu congelado" },
+            { time: 10, original: "Black horse running wild and fast", translation: "Cavalo preto a correr livre e depressa" },
+            { time: 15, original: "In those devils close behind", translation: "E esses demónios logo atrás" }
         ]
     },
     {
