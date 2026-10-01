@@ -74,10 +74,10 @@ const playlistData = [
             { time: 54, original: "While I'm keeping the fires of the engine fed", translation: "Enquanto eu mantenho alimentando o fogo do motor" },
             { time: 59, original: "Oh, I am the ghost in the middle of the night", translation: "Oh, eu sou o fantasma no meio da noite." },
             { time: 64, original: "Working in the shadow so you have the light", translation: "Trabalhando na sombra para que você tenha a luz." },
-            { time: 10, original: "You count your dollars while I count the hours", translation: "Você conta seus dólares enquanto eu conto as horas." },
-            { time: 10, original: "Under the smoke of the factory towers", translation: "Sob a fumaça das torres da fábrica" },
-            { time: 10, original: "Yeah, the world is asleep, but the machine never dies", translation: "Sim, o mundo está adormecido, mas a máquina nunca morre." },
-            { time: 10, original: "And the graveyard shift is where my future lies", translation: "E é no turno da noite que reside o meu futuro." },
+            { time: 70, original: "You count your dollars while I count the hours", translation: "Você conta seus dólares enquanto eu conto as horas." },
+            { time: 75, original: "Under the smoke of the factory towers", translation: "Sob a fumaça das torres da fábrica" },
+            { time: 80, original: "Yeah, the world is asleep, but the machine never dies", translation: "Sim, o mundo está adormecido, mas a máquina nunca morre." },
+            { time: 85, original: "And the graveyard shift is where my future lies", translation: "E é no turno da noite que reside o meu futuro." },
 
             
         ]
