@@ -6,7 +6,7 @@ const playlistData = [
     src:"tracks/Say It Again.mp4",
     cover: "tracks/dark horizon.png", // Nome da imagem da capa
     lyrics: [
-        { time: 26, original: "Snow falls hard on Christmas night", translation: "A neve cai forte na noite de Natal" },
+        { time: 26, original: "Snow falls hard on Christmas night", translation: "A neve cai forte na noite de natal" },
         { time: 29, original: "Moon cuts through the frozen sky", translation: "A lua corta o céu congelado" },
         { time: 33, original: "Black horse running wild and fast", translation: "Cavalo preto correndo selvagem e rápido" },
         { time: 36, original: "Hear those devils close behind", translation: "Ouça aqueles demônios proximo de você." },
