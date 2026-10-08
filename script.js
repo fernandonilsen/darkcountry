@@ -3,8 +3,8 @@ const playlistData = [
     {
     title: "Say It Again",
     artist: "Dark Country",
-    src: "Say It Again.mp4",
-    cover: "dark horizon.png", // Nome da imagem da capa
+    src:"tracks/Say It Again.mp4",
+    cover: "tracks/dark horizon.png", // Nome da imagem da capa
     lyrics: [
         { time: 26, original: "Snow falls hard on Christmas night", translation: "A neve cai forte na noite de Natal" },
         { time: 29, original: "Moon cuts through the frozen sky", translation: "A lua corta o céu congelado" },
@@ -59,8 +59,8 @@ const playlistData = [
 {
         title: "Graveyard Shift",
         artist: "Dark Country",
-        src: "Graveyard Shift.mp3", // Nome do arquivo de áudio
-        cover: "graveyard.png", // Nome da imagem da capa desta música (opcional)
+        src: "tracks/Graveyard Shift.mp3", // Nome do arquivo de áudio
+        cover: "tracks/graveyard.png", // Nome da imagem da capa desta música (opcional)
         lyrics: [
             { time: 7, original: "Midnight strikes, the city goes dead", translation: "A meia-noite soa, a cidade morre" },
             { time: 10, original: "We don't sleep, we earn our bread", translation: "Nós não dormimos, ganhamos o nosso pão" },
