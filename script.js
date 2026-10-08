@@ -56,6 +56,7 @@ const playlistData = [
         { time: 216, original: "Now the dark can't drag me down", translation: "Agora a escuridão não pode me derrubar." }
     ]
 },
+
 {
         title: "Graveyard Shift",
         artist: "Dark Country",
@@ -79,35 +80,22 @@ const playlistData = [
             { time: 65, original: "Yeah, the world is asleep, but the machine never dies", translation: "Sim, o mundo está adormecido, mas a máquina nunca morre." },
             { time: 69, original: "And the graveyard shift is where my future lies", translation: "E é no turno da noite que reside o meu futuro." },
         ]
-    }
+    },
 
     {
         title: "I don't Knock",
         artist: "Dark Country",
-        src: "tracks/Graveyard Shift.mp3", // Nome do arquivo de áudio
+        src: "tracks/I Don't Knock.mp3", // Nome do arquivo de áudio
         cover: "tracks/graveyard.png", // Nome da imagem da capa desta música (opcional)
         lyrics: [
-            { time: 7, original: "Midnight strikes, the city goes dead", translation: "A meia-noite soa, a cidade morre" },
-            { time: 10, original: "We don't sleep, we earn our bread", translation: "Nós não dormimos, ganhamos o nosso pão" },
-            { time: 14, original: "Punch the card", translation: "Perfure o cartão" },
-            { time: 17, original: "Let the engine roar", translation: "Deixe o motor rugir" },
-            { time: 30, original: "The halogen light has a sickening glow", translation: "A lâmpada halógena tem um brilho nauseante." },
-            { time: 33, original: "On the graveyard shift where the minutes go slow", translation: "No turno da madrugada, onde os minutos passam devagar" },
-            { time: 37, original: "The midnight air is heavy and cold", translation: "O ar da meia-noite está pesado e frio." },
-            { time: 40, original: "I am the profit with the youth we sold", translation: "Eu sou o lucro com os jovens que vendemos." },
-            { time: 44, original: "Everyone sleeping in a warm soft bed", translation: "Todos dormindo em uma cama macia e quentinha." },
-            { time: 47, original: "While I'm keeping the fires of the engine fed", translation: "Enquanto eu mantenho alimentando o fogo do motor" },
-            { time: 51, original: "Oh, I am the ghost in the middle of the night", translation: "Oh, eu sou o fantasma no meio da noite." },
-            { time: 55, original: "Working in the shadow so you have the light", translation: "Trabalhando na sombra para que você tenha a luz." },
-            { time: 58, original: "You count your dollars while I count the hours", translation: "Você conta seus dólares enquanto eu conto as horas." },
-            { time: 62, original: "Under the smoke of the factory towers", translation: "Sob a fumaça das torres da fábrica" },
-            { time: 65, original: "Yeah, the world is asleep, but the machine never dies", translation: "Sim, o mundo está adormecido, mas a máquina nunca morre." },
-            { time: 69, original: "And the graveyard shift is where my future lies", translation: "E é no turno da noite que reside o meu futuro." },
+            { time: 35, original: "Boots hit wood like thunder cracks", translation: "As botas batem na madeira como estalos de trovão" },
+            { time: 38, original: "No slow walk, no turning back", translation: "Sem passo lento, sem recuar" },
+            { time: 41, original: "Dust flies up when I come through", translation: "A poeira sobe quando eu passo" },
+            { time: 44, original: "Whole damn room already knew", translation: "A sala inteira já sabia" },
+            { time: 47, original: "Ain’t no waiting at your gate", translation: "Não há espera no seu portão" }
         ]
     }
 ];
-
-
 
 let currentTrackIndex = 0;
 
