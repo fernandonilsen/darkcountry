@@ -92,7 +92,15 @@ const playlistData = [
             { time: 38, original: "No slow walk, no turning back", translation: "Sem passo lento, sem recuar" },
             { time: 41, original: "Dust flies up when I come through", translation: "A poeira sobe quando eu passo" },
             { time: 44, original: "Whole damn room already knew", translation: "A sala inteira já sabia" },
-            { time: 47, original: "Ain’t no waiting at your gate", translation: "Não há espera no seu portão" }
+            { time: 47, original: "Ain’t no waiting at your gate", translation: "Não há espera no seu portão" },
+            { time: 50, original: "I don't deaal in hesitate", translation: "Eu não lido com hesitação" },
+            { time: 53, original: "Locks and chains don't mean a thing", translation: "Fechaduras e correntes não significam nada" },
+            { time: 56, original: "When you hear that iron ring", translation: "Quando você ouve esse anel de ferro" },
+            { time: 59, original: "You built your walls to feel like kings", translation: "Você construiu suas paredes para se sentir como reis" },
+            { time: 62, original: "But i don't play those little things", translation: "Mas eu não jogo essas coisas pequenas" },
+            { time: 65, original: "I don't knock, I kick doors in", translation: "Eu não bato, eu arrombo as portas" },
+            { time: 67, original: "Boot to the lock, let the wild wind in", translation: "Bota na fechadura, deixe o vento selvagem entrar" },
+
         ]
     }
 ];
