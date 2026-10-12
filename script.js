@@ -86,7 +86,7 @@ const playlistData = [
         title: "I don't Knock",
         artist: "Dark Country",
         src: "tracks/I Don't Knock.mp3", // Nome do arquivo de áudio
-        cover: "tracks/graveyard.png", // Nome da imagem da capa desta música (opcional)
+        cover: "tracks/idontknock.png", // Nome da imagem da capa desta música (opcional)
         lyrics: [
             { time: 35, original: "Boots hit wood like thunder cracks", translation: "As botas batem na madeira como estalos de trovão" },
             { time: 38, original: "No slow walk, no turning back", translation: "Sem passo lento, sem recuar" },
