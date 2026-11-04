@@ -2,8 +2,8 @@ const songs = [
     {
         id: 1,
         title: "Say It Again",
-        artist: "Dark Country IA",
-        cover: "audio/audio/dark horizon.png",
+        artist: "Diga denovo",
+        cover: "audio/dark horizon.png",
         audioSrc: "audio/Say It Again.mp4",
         lyricsOriginal: `[Verse 1]
 Snow falls hard on Christmas night
@@ -136,9 +136,9 @@ Agora a escuridão não pode me arrastar para baixo`
     },
     {
         id: 2,
-        title: "GraveYard Shift",
-        artist: "Dark Country IA",
-        cover: "audio/graveward-shift.jpg",
+        title: "Graveyard Shift",
+        artist: "Turno do Cemitério",
+        cover: "audio/graveyard.png",
         audioSrc: "audio/GraveYard Shift.mp3",
         lyricsOriginal: `[Verse 1]
 Midnight strikes, the city goes dead
@@ -220,5 +220,133 @@ E o turno da noite é onde o meu futuro descansa!
 Onde o meu futuro descansa!
 O relógio bate as cinco,
 Hora de desaparecer.  `
+    },
+    {
+    id: 3,
+        title: "I Don't Knock, I Kick Those In",
+        artist: "Eu não bato, eu chuto a porta",
+        cover: "audio/idontknock.png",       // Nome exato da imagem na pasta audio
+        audioSrc: "audio/I Don't Knock.mp3",   // Nome exato do mp3 na pasta audio
+        lyricsOriginal: `[Verse 1]
+Boots hit wood like thunder cracks
+No slow walk, no turning back
+Dust flies up when I come through
+Whole damn room already knew
+
+[Pre-Chorus]
+Ain’t no waiting at your gate
+I don’t deal in hesitate
+Locks and chains don’t mean a thing
+When you hear that iron ring
+You built your walls to feel like kings
+But I don’t play those little things
+
+[Chorus]
+I don’t knock, I kick those in
+Boot to the lock, let the wild wind in
+You hear that crash? That’s where I begin
+I don’t knock, I kick those in
+No mercy left, no second chance
+You see me watch? That’s your last glance
+You can pray, you can pretend
+I don’t knock, I kick those in
+
+[Verse 2]
+Smoke hangs low, my shadow tall
+Flame in my eyes, I claim it all
+Your safe place ain’t safe tonight
+I bring the dark into the light
+You whisper hope behind those walls
+I hear fear in every call
+Every bolt you ever laid
+Breaks the second that I raid
+You hide behind what you defend
+I walk straight through, this is the end
+
+[Chorus]
+I don’t knock, I kick those in
+Boot to the lock, let the wild wind in
+You hear that crash? That’s where I begin
+I don’t knock, I kick those in
+No mercy left, no second chance
+You see me watch? That’s your last glance
+You can pray, you can pretend
+I don’t knock, I kick those in
+
+[Bridge]
+Hear that wood split? Hear that cry?
+Ain’t no place you gonna hide
+Every door you ever made
+Was just another one to break
+
+[final Chorus]
+I don’t knock, I kick those in
+Storm in my chest, hell in my grin
+You built a cage, I lived for sin
+I don’t knock, I kick those in
+Kick ‘em down, let the fire roll
+Every lock can’t hold this soul
+From the dirt to the end
+I don’t knock, I kick those in`,
+        lyricsTranslation: `[verso 1]
+As botas batem na madeira como estalos de trovão
+Sem passo lento, sem recuar
+A poeira sobe quando eu passo
+A sala inteira já sabia
+Não há espera no seu portão
+Eu não lido com hesitação
+Fechaduras e correntes não significam nada
+Quando você ouve esse anel de ferro
+Você construiu suas paredes para se sentir como reis
+Mas eu não jogo essas coisas pequenas
+
+[Refrão]
+Eu não bato, eu arrombo as portas
+Bota na fechadura, deixe o vento selvagem entrar
+Você ouve esse estrondo? É aí que eu começo
+Eu não bato, eu arrombo as portas
+Nenhuma piedade restada, nenhuma segunda chance
+Você me vê assistir? Esse é o seu último olhar
+Você pode rezar, você pode fingir
+Eu não bato, eu arrombo as portas
+
+[verso 2]
+A fumaça paira baixa, minha sombra alta
+Chama em meus olhos, eu reivindico tudo
+Seu lugar seguro não é seguro esta noite
+Eu trago a escuridão para a luz
+Você sussurra esperança atrás dessas paredes
+Eu ouço o medo em cada chamada
+Cada ferrolho que você já colocou
+Quebra no segundo em que eu invado
+Você se esconde atrás do que defende
+Eu ando direto, este é o fim
+
+[Refrão]
+Eu não bato, eu arrombo as portas
+Bota na fechadura, deixe o vento selvagem entrar
+Você ouve esse estrondo? É aí que eu começo
+Eu não bato, eu arrombo as portas
+Nenhuma piedade restada, nenhuma segunda chance
+Você me vê assistir? Esse é o seu último olhar
+Você pode rezar, você pode fingir
+Eu não bato, eu arrombo as portas
+
+[ponte]
+Ouve essa madeira estalar? Ouve esse grito?
+Não há lugar onde você vá se esconder
+Cada porta que você já fez
+Foi apenas mais uma para quebrar
+
+[Refrão Final]
+Eu não bato, eu arrombo as portas
+Tempestade no meu peito, inferno no meu sorriso
+Você construiu uma gaiola, eu vivi pelo pecado
+Eu não bato, eu arrombo as portas
+Chute-as para baixo, deixe o fogo rolar
+Cada fechadura não pode segurar esta alma
+Da sujeira até o fim
+Eu não bato, eu arrombo as portas`
     }
+
 ];

@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+    // Referências aos elementos do DOM
     const audio = document.getElementById("audio-player");
     const playBtn = document.getElementById("btn-play");
     const prevBtn = document.getElementById("btn-prev");
@@ -7,22 +8,31 @@ document.addEventListener("DOMContentLoaded", () => {
     const volumeBar = document.getElementById("volume-bar");
     const playlistList = document.getElementById("playlist-list");
 
+    // Elementos das abas Mobile
+    const navTabs = document.querySelectorAll('.nav-tab');
+    const tabPlaylist = document.getElementById('tab-playlist');
+    const tabLyrics = document.getElementById('tab-lyrics');
+
     let currentSongIndex = 0;
     let isPlaying = false;
 
-    // Renderizar a Playlist
+    // 1. Renderizar a Lista de Músicas (Playlist)
     function renderPlaylist() {
         playlistList.innerHTML = "";
         songs.forEach((song, index) => {
             const li = document.createElement("li");
             li.textContent = `${song.title} - ${song.artist}`;
             if (index === currentSongIndex) li.classList.add("active");
-            li.addEventListener("click", () => loadSong(index, true));
+            
+            li.addEventListener("click", () => {
+                loadSong(index, true);
+                switchToLyricsTabOnMobile(); // Muda para a aba de letra no celular
+            });
             playlistList.appendChild(li);
         });
     }
 
-    // Carregar Música
+    // 2. Carregar a Música Selecionada
     function loadSong(index, shouldPlay = false) {
         currentSongIndex = index;
         const song = songs[currentSongIndex];
@@ -41,19 +51,19 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    // Controles de Áudio
+    // 3. Controles de Reprodução
     function playAudio() {
         isPlaying = true;
         audio.play();
         playBtn.innerHTML = `<i data-lucide="pause"></i>`;
-        lucide.createIcons();
+        if (window.lucide) lucide.createIcons();
     }
 
     function pauseAudio() {
         isPlaying = false;
         audio.pause();
         playBtn.innerHTML = `<i data-lucide="play"></i>`;
-        lucide.createIcons();
+        if (window.lucide) lucide.createIcons();
     }
 
     playBtn.addEventListener("click", () => {
@@ -71,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
         loadSong(currentSongIndex, true);
     });
 
-    // Atualização da Barra de Progresso
+    // 4. Progresso do Áudio e Volume
     audio.addEventListener("timeupdate", () => {
         if (audio.duration) {
             const progress = (audio.currentTime / audio.duration) * 100;
@@ -85,9 +95,11 @@ document.addEventListener("DOMContentLoaded", () => {
         audio.currentTime = (seekBar.value / 100) * audio.duration;
     });
 
-    volumeBar.addEventListener("input", () => {
-        audio.volume = volumeBar.value / 100;
-    });
+    if (volumeBar) {
+        volumeBar.addEventListener("input", () => {
+            audio.volume = volumeBar.value / 100;
+        });
+    }
 
     function formatTime(seconds) {
         const mins = Math.floor(seconds / 60);
@@ -95,6 +107,35 @@ document.addEventListener("DOMContentLoaded", () => {
         return `${mins}:${secs < 10 ? "0" : ""}${secs}`;
     }
 
-    // Inicialização
+    // 5. Troca de Abas no Celular (Músicas / Letra)
+    navTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            const targetId = tab.getAttribute('data-target');
+
+            navTabs.forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+
+            if (targetId === 'tab-playlist') {
+                tabPlaylist.classList.add('active-tab');
+                tabLyrics.classList.remove('active-tab');
+            } else {
+                tabLyrics.classList.add('active-tab');
+                tabPlaylist.classList.remove('active-tab');
+            }
+        });
+    });
+
+    function switchToLyricsTabOnMobile() {
+        if (window.innerWidth <= 768) {
+            navTabs.forEach(t => t.classList.remove('active'));
+            const lyricsTabBtn = document.querySelector('[data-target="tab-lyrics"]');
+            if (lyricsTabBtn) lyricsTabBtn.classList.add('active');
+
+            tabPlaylist.classList.remove('active-tab');
+            tabLyrics.classList.add('active-tab');
+        }
+    }
+
+    // Inicializa a primeira música
     loadSong(0);
 });
