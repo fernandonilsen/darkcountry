@@ -3,8 +3,8 @@ const songs = [
         id: 1,
         title: "Say It Again",
         artist: "Dark Country IA",
-        cover: "./audio/say-it-again.jpg",
-        audioSrc: "./audio/audio/Say It Again.mp4",
+        cover: "audio/audio/dark horizon.png",
+        audioSrc: "audio/Say It Again.mp4",
         lyricsOriginal: `[Verse 1]
 Snow falls hard on Christmas night
 Moon cuts through the frozen sky
@@ -69,6 +69,7 @@ Hear my horse he brought me home
 F*ck off
 Now the dark can’t drag me down
 `,
+
         lyricsTranslation: `[Verso 1]
 A neve cai forte na noite de Natal
 A lua corta o céu congelado
@@ -84,14 +85,14 @@ Ouço eles gritando na escuridão
 Sinto eles respirando no meu pescoço
 
 [Refrão]
-Vão se foder (ou "Pai de Deus, saiam daqui")
+Vão se foder
 Vocês não vão me levar esta noite
 Vão se foder
-Passeio com este cavalo através da luz sagrada
+Cavalgando com este cavalo através da luz sagrada
 Vão se foder
-Ouçam minha arma e ouçam-na rugir
+Ouçam minha arma e ouçam ela rugir
 Vão se foder
-Estou cavalgando para casa para todo o sempre
+Estou cavalgando para casa e para sempre
 
 [Verso 2]
 Atravesso o rio frio e negro
@@ -111,15 +112,15 @@ Mas vejo a luz da minha varanda brilhar
 Vão se foder
 Vocês não vão me levar esta noite
 Vão se foder
-Passeio com este cavalo através da luz sagrada
+Cavalgando com este cavalo através da luz sagrada
 Vão se foder
-Ouçam minha arma e ouçam-na rugir
+Ouçam minha arma e ouçam ela rugir
 Vão se foder
-Estou cavalgando para casa para todo o sempre
+Estou cavalgando para casa e para sempre
 
 [Ponte]
 Ela está esperando junto à porta
-O fogo queimando quente lá dentro
+O fogo queimando lá dentro
 Alimento meu cavalo e fecho o portão
 Desenho o círculo sagrado bem amplo
 
@@ -135,10 +136,10 @@ Agora a escuridão não pode me arrastar para baixo`
     },
     {
         id: 2,
-        title: "Gallows Tree",
-        artist: "Blackwood Hollow",
-        cover: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=300",
-        audioSrc: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+        title: "GraveYard Shift",
+        artist: "Dark Country IA",
+        cover: "audio/graveward-shift.jpg",
+        audioSrc: "audio/GraveYard Shift.mp3",
         lyricsOriginal: `Underneath the gallows tree
 The raven sings a song for me
 No redemption, no escape
