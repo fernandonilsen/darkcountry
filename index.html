@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Country Vault</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Ícones via Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar: Lista de Músicas -->
+        <aside class="sidebar">
+            <div class="logo">
+                <i data-lucide="skull"></i>
+                <h2>Dark Country</h2>
+            </div>
+            <ul id="playlist-list" class="playlist">
+                <!-- Músicas serão inseridas via JS -->
+            </ul>
+        </aside>
+
+        <!-- Conteúdo Principal -->
+        <main class="main-content">
+            <!-- Header da Música Atual -->
+            <header class="now-playing-header">
+                <img id="track-cover" src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=300" alt="Capa da música">
+                <div class="track-details">
+                    <h1 id="track-title">Selecione uma música</h1>
+                    <p id="track-artist">Artista</p>
+                </div>
+            </header>
+
+            <!-- Seção de Letras (Lado a Lado) -->
+            <section class="lyrics-container">
+                <div class="lyrics-box">
+                    <h3>Original</h3>
+                    <div id="lyrics-original" class="lyrics-text">
+                        <p class="placeholder">Selecione uma faixa para ver a letra.</p>
+                    </div>
+                </div>
+                <div class="lyrics-box">
+                    <h3>Tradução (PT-BR)</h3>
+                    <div id="lyrics-translation" class="lyrics-text">
+                        <p class="placeholder">Selecione uma faixa para ver a tradução.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Player Fixo de Áudio -->
+            <footer class="player-bar">
+                <audio id="audio-player"></audio>
+                
+                <div class="player-controls">
+                    <button id="btn-prev" class="control-btn"><i data-lucide="skip-back"></i></button>
+                    <button id="btn-play" class="control-btn play-btn"><i data-lucide="play"></i></button>
+                    <button id="btn-next" class="control-btn"><i data-lucide="skip-forward"></i></button>
+                </div>
+
+                <div class="timeline-container">
+                    <span id="current-time">0:00</span>
+                    <input type="range" id="seek-bar" value="0" max="100">
+                    <span id="duration">0:00</span>
+                </div>
+
+                <div class="volume-container">
+                    <i data-lucide="volume-2"></i>
+                    <input type="range" id="volume-bar" value="80" max="100">
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <!-- Scripts JavaScript -->
+    <script src="js/playlist.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        // Inicializa os ícones do Lucide
+        lucide.createIcons();
+    </script>
+</body>
+</html>
