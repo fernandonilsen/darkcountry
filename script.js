@@ -1,67 +1,66 @@
 // Dados das músicas (incluindo tempos em segundos para sincronizar as linhas)
 const playlistData = [
     {
-    title: "Say It Again",
-    artist: "Dark Country",
-    src:"tracks/Say It Again.mp4",
-    cover: "tracks/dark horizon.png", // Nome da imagem da capa
-    lyrics: [
-        { time: 26, original: "Snow falls hard on Christmas night", translation: "A neve cai forte na noite de natal" },
-        { time: 29, original: "Moon cuts through the frozen sky", translation: "A lua corta o céu congelado" },
-        { time: 33, original: "Black horse running wild and fast", translation: "Cavalo preto correndo selvagem e rápido" },
-        { time: 36, original: "Hear those devils close behind", translation: "Ouça aqueles demônios proximo de você." },
-        { time: 45, original: "Through the forest through the frost", translation: "Pela floresta, através da geada" },
-        { time: 48, original: "Through the swamp and through the rain", translation: "Pelo pântano e através da chuva" },
-        { time: 51, original: "But my horse keeps pushing on", translation: "Mas meu cavalo continua insistindo" },
-        { time: 54, original: "Like he knows the holy way", translation: "Como se ele soubesse o caminho sagrado" },
-        { time: 57, original: "Hear them screaming in the dark", translation: "Ouça-os gritar na escuridão" },
-        { time: 60, original: "Feel them breathing down my neck", translation: "Sinto-os respirando no meu pescoço." },
-        { time: 64, original: "FUCK OFF", translation: "VÁ SE FODER" },
-        { time: 67, original: "You ain't taking me tonight", translation: "Você não vai me levar esta noite" },
-        { time: 70, original: "FUCK OFF", translation: "VÁ SE FODER" },
-        { time: 72, original: "Ride this horse through holy light", translation: "Cavalgue este cavalo através da luz sagrada" },
-        { time: 76, original: "FUCK OFF", translation: "VÁ SE FODER" },
-        { time: 79, original: "Hear my gun and hear it roar", translation: "Ouça minha arma e ouça-a rugir" },
-        { time: 82, original: "FUCK OFF", translation: "VÁ SE FODER" },
-        { time: 85, original: "I'm riding home forevermore", translation: "Estou voltando para casa para sempre." },
-        { time: 94, original: "Cross river cold and black", translation: "Atravesse o rio frio e escuro" },
-        { time: 98, original: "Hear those demons in the trees", translation: "Ouça aqueles demônios nas árvores" },
-        { time: 100, original: "Load the iron let it sing", translation: "Carregue o ferro, deixe-o cantar." },
-        { time: 103, original: "Hear them crying in the breeze", translation: "Ouça-os chorando na brisa." },
-        { time: 106, original: "Through the marsh and through the mud", translation: "Através do pântano e da lama" },
-        { time: 109, original: "Through the shadows through the snow", translation: "Através das sombras, através da neve" },
-        { time: 112, original: "But my horse just keeps on flying", translation: "Mas meu cavalo continua voando" },
-        { time: 115, original: "Like a ghost I'll never slow", translation: "Como um fantasma, eu nunca vou diminuir o ritmo." },
-        { time: 118, original: "Hear them howling in the dark", translation: "Ouça-os uivando na escuridão." },
-        { time: 121, original: "But I see my porch light glow", translation: "Mas vejo a luz da minha varanda brilhar" },
-        { time: 125, original: "FUCK OFF", translation: "VÁ SE FODER" },
-        { time: 128, original: "You ain't taking me tonight", translation: "Você não vai me levar esta noite" },
-        { time: 131, original: "FUCK OFF", translation: "VÁ SE FODER" },
-        { time: 133, original: "Ride this horse through holy light", translation: "Cavalgue este cavalo através da luz sagrada" },
-        { time: 137, original: "FUCK OFF", translation: "VÁ SE FODER" },
-        { time: 140, original: "Hear my gun and hear it roar", translation: "Ouça minha arma e ouça-a rugir" },
-        { time: 143, original: "FUCK OFF", translation: "VÁ SE FODER" },
-        { time: 146, original: "I'm riding home forevermore", translation: "Estou voltando para casa para sempre." },
-        { time: 168, original: "She stands waiting by the door", translation: "Ela está parada, esperando junto à porta." },
-        { time: 171, original: "Fire burning warm inside", translation: "Fogo queimando, aquecendo por dentro." },
-        { time: 174, original: "Feed my horse and close the gate", translation: "Alimente meu cavalo e feche o portão" },
-        { time: 177, original: "Draw the holy circle wide", translation: "Desenhe bem amplo o círculo sagrado." },
-        { time: 195, original: "FUCK OFF", translation: "VÁ SE FODER" },
-        { time: 197, original: "Devil stay outside tonight", translation: "Diabo, fique lá fora está noite" },
-        { time: 201, original: "FUCK OFF", translation: "VÁ SE FODER" },
-        { time: 203, original: "This here house is holy ground", translation: "Esta casa é um lugar sagrado." },
-        { time: 207, original: "FUCK OFF", translation: "VÁ SE FODER" },
-        { time: 210, original: "Hear my horse he brought me home", translation: "Ouça meu cavalo, ele me trouxe para casa" },
-        { time: 213, original: "FUCK OFF", translation: "VÁ SE FODER" },
-        { time: 216, original: "Now the dark can't drag me down", translation: "Agora a escuridão não pode me derrubar." }
-    ]
-},
-
-{
+        title: "Say It Again",
+        artist: "Dark Country",
+        src: "tracks/Say It Again.mp4",
+        cover: "tracks/dark horizon.png", // Nome da imagem da capa
+        lyrics: [
+            { time: 26, original: "Snow falls hard on Christmas night", translation: "A neve cai forte na noite de natal" },
+            { time: 29, original: "Moon cuts through the frozen sky", translation: "A lua corta o céu congelado" },
+            { time: 33, original: "Black horse running wild and fast", translation: "Cavalo preto correndo selvagem e rápido" },
+            { time: 36, original: "Hear those devils close behind", translation: "Ouça aqueles demônios proximo de você." },
+            { time: 45, original: "Through the forest through the frost", translation: "Pela floresta, através da geada" },
+            { time: 48, original: "Through the swamp and through the rain", translation: "Pelo pântano e através da chuva" },
+            { time: 51, original: "But my horse keeps pushing on", translation: "Mas meu cavalo continua insistindo" },
+            { time: 54, original: "Like he knows the holy way", translation: "Como se ele soubesse o caminho sagrado" },
+            { time: 57, original: "Hear them screaming in the dark", translation: "Ouça-os gritar na escuridão" },
+            { time: 60, original: "Feel them breathing down my neck", translation: "Sinto-os respirando no meu pescoço." },
+            { time: 64, original: "FUCK OFF", translation: "VÁ SE FODER" },
+            { time: 67, original: "You ain't taking me tonight", translation: "Você não vai me levar esta noite" },
+            { time: 70, original: "FUCK OFF", translation: "VÁ SE FODER" },
+            { time: 72, original: "Ride this horse through holy light", translation: "Cavalgue este cavalo através da luz sagrada" },
+            { time: 76, original: "FUCK OFF", translation: "VÁ SE FODER" },
+            { time: 79, original: "Hear my gun and hear it roar", translation: "Ouça minha arma e ouça-a rugir" },
+            { time: 82, original: "FUCK OFF", translation: "VÁ SE FODER" },
+            { time: 85, original: "I'm riding home forevermore", translation: "Estou voltando para casa para sempre." },
+            { time: 94, original: "Cross river cold and black", translation: "Atravesse o rio frio e escuro" },
+            { time: 98, original: "Hear those demons in the trees", translation: "Ouça aqueles demônios nas árvores" },
+            { time: 100, original: "Load the iron let it sing", translation: "Carregue o ferro, deixe-o cantar." },
+            { time: 103, original: "Hear them crying in the breeze", translation: "Ouça-os chorando na brisa." },
+            { time: 106, original: "Through the marsh and through the mud", translation: "Através do pântano e da lama" },
+            { time: 109, original: "Through the shadows through the snow", translation: "Através das sombras, através da neve" },
+            { time: 112, original: "But my horse just keeps on flying", translation: "Mas meu cavalo continua voando" },
+            { time: 115, original: "Like a ghost I'll never slow", translation: "Como um fantasma, eu nunca vou diminuir o ritmo." },
+            { time: 118, original: "Hear them howling in the dark", translation: "Ouça-os uivando na escuridão." },
+            { time: 121, original: "But I see my porch light glow", translation: "Mas vejo a luz da minha varanda brilhar" },
+            { time: 125, original: "FUCK OFF", translation: "VÁ SE FODER" },
+            { time: 128, original: "You ain't taking me tonight", translation: "Você não vai me levar esta noite" },
+            { time: 131, original: "FUCK OFF", translation: "VÁ SE FODER" },
+            { time: 133, original: "Ride this horse through holy light", translation: "Cavalgue este cavalo através da luz sagrada" },
+            { time: 137, original: "FUCK OFF", translation: "VÁ SE FODER" },
+            { time: 140, original: "Hear my gun and hear it roar", translation: "Ouça minha arma e ouça-a rugir" },
+            { time: 143, original: "FUCK OFF", translation: "VÁ SE FODER" },
+            { time: 146, original: "I'm riding home forevermore", translation: "Estou voltando para casa para sempre." },
+            { time: 168, original: "She stands waiting by the door", translation: "Ela está parada, esperando junto à porta." },
+            { time: 171, original: "Fire burning warm inside", translation: "Fogo queimando, aquecendo por dentro." },
+            { time: 174, original: "Feed my horse and close the gate", translation: "Alimente meu cavalo e feche o portão" },
+            { time: 177, original: "Draw the holy circle wide", translation: "Desenhe bem amplo o círculo sagrado." },
+            { time: 195, original: "FUCK OFF", translation: "VÁ SE FODER" },
+            { time: 197, original: "Devil stay outside tonight", translation: "Diabo, fique lá fora está noite" },
+            { time: 201, original: "FUCK OFF", translation: "VÁ SE FODER" },
+            { time: 203, original: "This here house is holy ground", translation: "Esta casa é um lugar sagrado." },
+            { time: 207, original: "FUCK OFF", translation: "VÁ SE FODER" },
+            { time: 210, original: "Hear my horse he brought me home", translation: "Ouça meu cavalo, ele me trouxe para casa" },
+            { time: 213, original: "FUCK OFF", translation: "VÁ SE FODER" },
+            { time: 216, original: "Now the dark can't drag me down", translation: "Agora a escuridão não pode me derrubar." }
+        ]
+    },
+    {
         title: "Graveyard Shift",
         artist: "Dark Country",
-        src: "tracks/Graveyard Shift.mp3", // Nome do arquivo de áudio
-        cover: "tracks/graveyard.png", // Nome da imagem da capa desta música (opcional)
+        src: "tracks/Graveyard Shift.mp3",
+        cover: "tracks/graveyard.png",
         lyrics: [
             { time: 7, original: "Midnight strikes, the city goes dead", translation: "A meia-noite soa, a cidade morre" },
             { time: 10, original: "We don't sleep, we earn our bread", translation: "Nós não dormimos, ganhamos o nosso pão" },
@@ -78,15 +77,14 @@ const playlistData = [
             { time: 58, original: "You count your dollars while I count the hours", translation: "Você conta seus dólares enquanto eu conto as horas." },
             { time: 62, original: "Under the smoke of the factory towers", translation: "Sob a fumaça das torres da fábrica" },
             { time: 65, original: "Yeah, the world is asleep, but the machine never dies", translation: "Sim, o mundo está adormecido, mas a máquina nunca morre." },
-            { time: 69, original: "And the graveyard shift is where my future lies", translation: "E é no turno da noite que reside o meu futuro." },
+            { time: 69, original: "And the graveyard shift is where my future lies", translation: "E é no turno da noite que reside o meu futuro." }
         ]
     },
-
     {
         title: "I don't Knock",
         artist: "Dark Country",
-        src: "tracks/I Don't Knock.mp3", // Nome do arquivo de áudio
-        cover: "tracks/idontknock.png", // Nome da imagem da capa desta música (opcional)
+        src: "tracks/I Don't Knock.mp3",
+        cover: "tracks/idontknock.png",
         lyrics: [
             { time: 35, original: "Boots hit wood like thunder cracks", translation: "As botas batem na madeira como estalos de trovão" },
             { time: 38, original: "No slow walk, no turning back", translation: "Sem passo lento, sem recuar" },
@@ -99,8 +97,7 @@ const playlistData = [
             { time: 59, original: "You built your walls to feel like kings", translation: "Você construiu suas paredes para se sentir como reis" },
             { time: 62, original: "But i don't play those little things", translation: "Mas eu não jogo essas coisas pequenas" },
             { time: 65, original: "I don't knock, I kick doors in", translation: "Eu não bato, eu arrombo as portas" },
-            { time: 67, original: "Boot to the lock, let the wild wind in", translation: "Bota na fechadura, deixe o vento selvagem entrar" },
-
+            { time: 67, original: "Boot to the lock, let the wild wind in", translation: "Bota na fechadura, deixe o vento selvagem entrar" }
         ]
     }
 ];
