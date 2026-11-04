@@ -319,20 +319,20 @@ Seu lugar seguro não é seguro esta noite
 Eu trago a escuridão para a luz
 Você sussurra esperança atrás dessas paredes
 Eu ouço o medo em cada chamada
-Cada ferrolho que você já colocou
+Cada trinco que você já colocou
 Quebra no segundo em que eu invado
 Você se esconde atrás do que defende
-Eu ando direto, este é o fim
+Eu atravesso direto, este é o fim
 
 [Refrão]
-Eu não bato, eu arrombo as portas
+Eu não bato, eu arrombo com um chute
 Bota na fechadura, deixe o vento selvagem entrar
 Você ouve esse estrondo? É aí que eu começo
-Eu não bato, eu arrombo as portas
-Nenhuma piedade restada, nenhuma segunda chance
-Você me vê assistir? Esse é o seu último olhar
+Eu não bato, eu arrombo com um chute
+Sem piedade, sem segunda chance
+Você me vê observando? Esse é o seu último olhar
 Você pode rezar, você pode fingir
-Eu não bato, eu arrombo as portas
+Eu não bato, eu arrombo com um chute
 
 [ponte]
 Ouve essa madeira estalar? Ouve esse grito?
@@ -341,14 +341,14 @@ Cada porta que você já fez
 Foi apenas mais uma para quebrar
 
 [Refrão Final]
-Eu não bato, eu arrombo as portas
+Eu não bato, eu arrombo com um chute
 Tempestade no meu peito, inferno no meu sorriso
 Você construiu uma gaiola, eu vivi pelo pecado
-Eu não bato, eu arrombo as portas
+Eu não bato, eu arrombo com um chute
 Chute-as para baixo, deixe o fogo rolar
 Cada fechadura não pode segurar esta alma
 Da sujeira até o fim
-Eu não bato, eu arrombo as portas`
+Eu não bato, eu arrombo com um chute`
     }
 
 ];
