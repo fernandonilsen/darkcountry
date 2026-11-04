@@ -289,26 +289,28 @@ Every lock can’t hold this soul
 From the dirt to the end
 I don’t knock, I kick those in`,
         lyricsTranslation: `[verso 1]
-As botas batem na madeira como estalos de trovão
-Sem passo lento, sem recuar
-A poeira sobe quando eu passo
+Botas batem na madeira como estrondos de trovão
+Sem caminhada lenta, sem recuar
+A poeira voa quando eu passo
 A sala inteira já sabia
+
+[Pré-Refrão]
 Não há espera no seu portão
 Eu não lido com hesitação
-Fechaduras e correntes não significam nada
-Quando você ouve esse anel de ferro
+Cadeados e correntes não significam nada
+Quando você ouve aquele toque de ferro
 Você construiu suas paredes para se sentir como reis
-Mas eu não jogo essas coisas pequenas
+Mas eu não brinco com essas coisas pequenas
 
 [Refrão]
-Eu não bato, eu arrombo as portas
+Eu não bato, eu arrombo com um chute
 Bota na fechadura, deixe o vento selvagem entrar
 Você ouve esse estrondo? É aí que eu começo
-Eu não bato, eu arrombo as portas
-Nenhuma piedade restada, nenhuma segunda chance
-Você me vê assistir? Esse é o seu último olhar
+Eu não bato, eu arrombo com um chute
+Sem piedade, sem segunda chance
+Você me vê observando? Esse é o seu último olhar
 Você pode rezar, você pode fingir
-Eu não bato, eu arrombo as portas
+Eu não bato, eu arrombo com um chute
 
 [verso 2]
 A fumaça paira baixa, minha sombra alta
