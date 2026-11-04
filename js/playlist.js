@@ -350,16 +350,6 @@ Cada fechadura não pode segurar esta alma
 Da sujeira até o fim
 Eu não bato, eu arrombo com um chute`
     }
-    {
-        id: 4,
-        title: "I Walk With Thunder",
-        artist: "Eu caminho com o trovão",
-        cover: "audio/minha-capa.jpg",       // Nome exato da imagem na pasta audio
-        audioSrc: "audio/minha-musica.mp3",   // Nome exato do mp3 na pasta audio
-        lyricsOriginal: `Linha 1 da letra original...
-Linha 2 da letra original...`,
-        lyricsTranslation: `Linha 1 da tradução...
-Linha 2 da tradução...`
-    }
+    
 
 ];
