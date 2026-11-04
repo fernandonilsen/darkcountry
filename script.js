@@ -1,10 +1,11 @@
-// Dados das músicas (incluindo tempos em segundos para sincronizar as linhas)
+// Dados das músicas (com capas, letras sincronizadas e resumos da Jukebox)
 const playlistData = [
     {
         title: "Say It Again",
         artist: "Dark Country",
         src: "tracks/Say It Again.mp4",
-        cover: "tracks/dark horizon.png", // Nome da imagem da capa
+        cover: "tracks/dark horizon.png",
+        summary: "Uma narrativa sombria sobre uma fuga desesperada em uma noite congelante de Natal. Perseguido por forças demoníacas, o cavaleiro luta ferozmente para alcançar a segurança e o aconchego de sua casa.",
         lyrics: [
             { time: 26, original: "Snow falls hard on Christmas night", translation: "A neve cai forte na noite de natal" },
             { time: 29, original: "Moon cuts through the frozen sky", translation: "A lua corta o céu congelado" },
@@ -61,6 +62,7 @@ const playlistData = [
         artist: "Dark Country",
         src: "tracks/Graveyard Shift.mp3",
         cover: "tracks/graveyard.png",
+        summary: "Retrata a exaustão e a melancolia do turno da madrugada nas fábricas. Um hino industrial pesado sobre trabalhar nas sombras enquanto o resto do mundo dorme.",
         lyrics: [
             { time: 7, original: "Midnight strikes, the city goes dead", translation: "A meia-noite soa, a cidade morre" },
             { time: 10, original: "We don't sleep, we earn our bread", translation: "Nós não dormimos, ganhamos o nosso pão" },
@@ -85,6 +87,7 @@ const playlistData = [
         artist: "Dark Country",
         src: "tracks/I Don't Knock.mp3",
         cover: "tracks/idontknock.png",
+        summary: "Uma faixa de confronto intenso com uma energia implacável de faroeste sombrio. Fala sobre imposição, força bruta e a chegada inevitável de quem não pede licença.",
         lyrics: [
             { time: 35, original: "Boots hit wood like thunder cracks", translation: "As botas batem na madeira como estalos de trovão" },
             { time: 38, original: "No slow walk, no turning back", translation: "Sem passo lento, sem recuar" },
@@ -114,6 +117,7 @@ const currentTimeEl = document.getElementById('current-time');
 const durationEl = document.getElementById('duration');
 const songTitleEl = document.getElementById('song-title');
 const artistNameEl = document.getElementById('artist-name');
+const songSummaryEl = document.getElementById('song-summary'); // Novo elemento de resumo
 const playlistEl = document.getElementById('playlist');
 const originalLyricsEl = document.getElementById('original-lyrics');
 const translatedLyricsEl = document.getElementById('translated-lyrics');
@@ -138,18 +142,19 @@ function loadTrack(index) {
     const track = playlistData[index];
     songTitleEl.textContent = track.title;
     artistNameEl.textContent = track.artist;
+    songSummaryEl.textContent = track.summary; // Atualiza o resumo na interface
     audio.src = track.src;
     
     // Renderizar letras na tela
     originalLyricsEl.innerHTML = '';
     translatedLyricsEl.innerHTML = '';
 
-    // Atualizar a capa do álbum (se tiver a propriedade cover)
+    // Atualizar a capa do álbum
     const albumArt = document.getElementById('album-art');
     if (track.cover) {
         albumArt.src = track.cover;
     } else {
-        albumArt.src = 'dark horizon.png'; // Ou uma imagem padrão
+        albumArt.src = 'tracks/dark horizon.png';
     }
 
     track.lyrics.forEach((line, i) => {
@@ -234,11 +239,9 @@ function syncLyrics(currentTime) {
     lines.forEach((line, i) => {
         if (i === activeIndex) {
             if (!line.classList.contains('active')) {
-                // Ativa e rola a linha original
                 line.classList.add('active');
                 line.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
-                // Ativa e rola a linha da tradução juntas!
                 transLines[i].classList.add('active');
                 transLines[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
             }

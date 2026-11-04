@@ -3,33 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Say It Again - Dark Horizon</title>
+    <title>Jukebox - Dark Country</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
-        <header class="song-header">
-            <!-- Se quiser colocar a capa da música, ela fica aqui -->
-            <div class="album-art">
-                <img src="capa.jpg" alt="Capa Dark Horizon">
+    <div class="app-container">
+        <!-- Playlist Lateral / Jukebox Selection -->
+        <aside class="playlist-sidebar">
+            <h3>🎵 Jukebox Playlist</h3>
+            <ul id="playlist">
+                <!-- As músicas serão injetadas via JavaScript -->
+            </ul>
+        </aside>
+
+        <!-- Container Principal do Player, Resumo e Letras -->
+        <main class="main-content">
+            <header>
+                <!-- Capa do Álbum -->
+                <div class="album-art-container">
+                    <img id="album-art" src="" alt="Capa do Álbum">
+                </div>
+                <h1 id="song-title">Selecione uma música</h1>
+                <h2 id="artist-name">Artista</h2>
+            </header>
+
+            <!-- Card de Resumo da Música -->
+            <section class="song-summary-card">
+                <h3>📜 Sobre a Música</h3>
+                <p id="song-summary">Escolha uma faixa na jukebox para ver a história por trás dela...</p>
+            </section>
+
+            <!-- Player de Áudio -->
+            <div class="player-container">
+                <audio id="audio"></audio>
+                
+                <div class="controls-top">
+                    <span id="current-time">0:00</span>
+                    <input type="range" id="progress" value="0" max="100" step="0.1">
+                    <span id="duration">0:00</span>
+                </div>
+
+                <div class="controls-bottom">
+                    <button id="prev-btn">⏮ Anterior</button>
+                    <button id="play-btn">▶ Play</button>
+                    <button id="next-btn">Próxima ⏭</button>
+                    
+                    <div class="volume-control">
+                        <span>🔊</span>
+                        <input type="range" id="volume" min="0" max="1" step="0.05" value="1">
+                    </div>
+                </div>
             </div>
-            <h1>Say It Again</h1>
-            <h2>Dark Horizon</h2>
-        </header>
 
-        <main class="lyrics-container">
-            <!-- Coluna da Letra Original -->
-            <section class="lyrics-column">
-                <h3>Letra Original</h3>
-                <div id="original-text"></div>
-            </section>
+            <!-- Seção de Letras e Traduções Sincronizadas -->
+            <div class="lyrics-section">
+                <div class="lyric-box">
+                    <h3>Letra Original</h3>
+                    <div class="text-content" id="original-lyrics">
+                        <p class="lyric-line">Aguardando seleção...</p>
+                    </div>
+                </div>
 
-            <!-- Coluna da Tradução -->
-            <section class="lyrics-column">
-                <h3>Tradução</h3>
-                <div id="translated-text"></div>
-            </section>
+                <div class="lyric-box">
+                    <h3>Tradução</h3>
+                    <div class="text-content" id="translated-lyrics">
+                        <p class="lyric-line">Aguardando seleção...</p>
+                    </div>
+                </div>
+            </div>
         </main>
     </div>
 
