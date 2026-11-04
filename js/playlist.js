@@ -140,13 +140,85 @@ Agora a escuridão não pode me arrastar para baixo`
         artist: "Dark Country IA",
         cover: "audio/graveward-shift.jpg",
         audioSrc: "audio/GraveYard Shift.mp3",
-        lyricsOriginal: `Underneath the gallows tree
-The raven sings a song for me
-No redemption, no escape
-Only dirt and shadow shape...`,
-        lyricsTranslation: `Debaixo da árvore da enforcadeira
-O corvo canta uma música para mim
-Sem redenção, sem escapatória
-Apenas terra e a forma da sombra...`
+        lyricsOriginal: `[Verse 1]
+Midnight strikes, the city goes dead
+We don't sleep, we earn our bread
+Punch the card, let the engine roll
+
+[Pre-Chorus]
+The halogen light has a sickening glow
+On the graveyard shift where the minutes go slow
+The midnight air is heavy and cold
+I am the profit, with the youth we sold
+Everyone sleeping in a warm, soft bed
+While I'm keeping the fires of the engine fed
+
+[Chorus]
+Oh, I am the ghost in the middle of the night
+Working in the shadow so you have the light
+You count your dollars while I count the hours
+Under the smoke of the factory towers
+Yeah, the world is asleep, but the machine never dies
+And the graveyard shift is where my future lies
+Where my future lies
+
+[Verse 2]
+The coffee is bitter, the silence is loud
+I'm just a shadow in a ghost-town crowd
+My hands are cracked from the grease and the steel
+Forgetting the way that a soft touch feels
+Two more hours till the break of the dawn
+Another piece of my life is gone
+
+[final Chorus]
+Oh, I am the ghost in the middle of the night
+Working in the shadow so you have the light
+You count your dollars while I count the hours
+Under the smoke of the factory towers
+Yeah, the world is asleep, but the machine never dies
+And the graveyard shift is where my future lies
+Where my future lies
+The clock strikes five
+Time to vanish`,
+        lyricsTranslation: `[Verso 1]
+As pancadas da meia-noite, a cidade adormece,
+Nós não dormimos, ganhamos o nosso pão.
+Bato o ponto, deixo o motor roncar.
+
+[Pré-Refrão]
+A luz halogéna tem um brilho nauseabundo,
+No turno da noite onde o tempo se arrasta.
+O ar da meia-noite é pesado e frio,
+Eu sou o lucro, com a juventude que se esvaziou.
+Enquanto todos dormem numa cama quente e macia,
+Sou eu que mantenho a fornalha da máquina viva!
+
+[Refrão]
+Oh, eu sou o fantasma no meio da noite,
+Trabalhando nas sombras para que você possa ter luz.
+Você conta os seus dólares, enquanto eu conto as horas,
+Sob a fumaça das torres da fábrica.
+Sim, o mundo adormece, mas a máquina nunca para,
+E o turno da noite é onde o meu futuro descansa!
+Onde o meu futuro descansa!
+
+[Verso 2]
+O café é amargo, o silêncio é ensurdecedor,
+Sou apenas uma sombra numa multidão fantasma.
+As minhas mãos estão rachadas pela massa e pelo aço,
+Esqueceram como e sentir toque suave.
+Mais duas horas até romper a aurora,
+Mais um pedaço da minha vida que vai embora.
+
+[Refrão Final]
+Oh, eu sou o fantasma no meio da noite,
+Trabalhando nas sombras para que você possa ter luz.
+Você conta o seus dólares, enquanto eu conto as horas,
+Sob a fumaça das torres da fábrica.
+Sim, o mundo adormece, mas a máquina nunca para,
+E o turno da noite é onde o meu futuro descansa!
+Onde o meu futuro descansa!
+O relógio bate as cinco,
+Hora de desaparecer.  `
     }
 ];
