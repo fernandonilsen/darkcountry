@@ -1,5 +1,5 @@
 :root {
-    --accent: #c88a35;
+    --accent: #d1471d;
     --text-main: #d1c7b7;
     --text-muted: #8c8275;
 }
@@ -13,7 +13,8 @@
 
 body {
     background-color: #141210;
-    background-image: url('bg-wood.jpg'); /* Se não tiver a imagem, fica o fundo escuro */
+    /* Aqui chamamos a textura de madeira que está na pasta css */
+    background-image: url('bg-wood.jpg'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -32,6 +33,10 @@ body {
 .sidebar {
     width: 340px;
     background-color: #0d0c0a;
+    /* Aqui chamamos a textura de couro na barra lateral (opcional) */
+    background-image: url('bg-leather.jpg'); 
+    background-size: cover;
+    background-position: center;
     border-right: 1px solid #28231d;
     padding: 24px;
     display: flex;
@@ -169,32 +174,14 @@ body {
     gap: 24px;
 }
 
-/* Card Superior da Música Atual */
+/* Card Superior da Música Atual (Limpo) */
 .now-playing-card {
     background: #191613;
     border: 1px solid #2e261f;
     border-radius: 6px;
-    padding: 16px 20px;
+    padding: 20px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.6);
     max-width: 600px;
-}
-
-.card-header-top {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    font-size: 0.75rem;
-    letter-spacing: 1px;
-    color: var(--text-muted);
-    margin-bottom: 12px;
-    border-bottom: 1px solid #26211c;
-    padding-bottom: 8px;
-    text-transform: uppercase;
-}
-
-.card-header-top span:first-child {
-    color: var(--accent);
-    font-weight: bold;
 }
 
 .card-body-content {
@@ -204,8 +191,8 @@ body {
 }
 
 #track-cover {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     border-radius: 4px;
     object-fit: cover;
     box-shadow: 0 4px 12px rgba(0,0,0,0.5);
@@ -224,10 +211,18 @@ body {
     font-size: 0.95rem;
 }
 
-#track-album-sub {
+/* Caixa de Resumo no Card Superior */
+.track-summary-box {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+#track-summary {
     font-size: 0.85rem;
-    color: #6e6559;
-    margin-top: 2px;
+    color: #8c8275;
+    line-height: 1.4;
+    font-style: italic;
 }
 
 /* Painéis de Letras (Pergaminhos Estilizados) */
@@ -239,7 +234,7 @@ body {
 }
 
 .lyrics-box {
-    background: #e3dccb; /* Tom exato de pergaminho envelhecido da imagem */
+    background: #e3dccb;
     color: #2b241d;
     border-radius: 6px;
     padding: 24px;

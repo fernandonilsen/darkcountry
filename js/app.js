@@ -40,13 +40,16 @@ document.addEventListener("DOMContentLoaded", () => {
         currentSongIndex = index;
         const song = songs[currentSongIndex];
 
-        // Atualiza elementos da interface visual
+        // Atualiza elementos da interface visual corretos
         document.getElementById("track-title").textContent = song.title;
         document.getElementById("track-artist").textContent = song.artist;
-        document.getElementById("track-album-sub").textContent = song.title;
-        document.getElementById("card-top-title").textContent = song.title.toUpperCase();
-        document.getElementById("card-top-artist").textContent = `- ${song.artist.toUpperCase()} -`;
         document.getElementById("track-cover").src = song.cover;
+        
+        // Atualiza o resumo da música no card superior
+        const summaryElement = document.getElementById("track-summary");
+        if (summaryElement) {
+            summaryElement.textContent = song.description || "Sem resumo disponível para esta faixa.";
+        }
         
         document.getElementById("lyrics-original").textContent = song.lyricsOriginal;
         document.getElementById("lyrics-translation").textContent = song.lyricsTranslation;

@@ -21,30 +21,30 @@
             </div>
             
             <ul id="playlist-list" class="playlist">
-                <!-- Músicas inseridas via JS -->
+                <!-- Músicas inseridas dinamicamente via JS -->
             </ul>
 
-            <!-- Caixa de Visitantes (Exatamente como na imagem) -->
+            <!-- Caixa de Visitantes -->
             <div class="visitor-box">
                 <span class="visitor-title">Visitor Counter</span>
-                <span id="visit-count" class="visitor-count">4,321 Views</span>
+                <span id="visit-count" class="visitor-count">...</span>
             </div>
         </aside>
 
         <!-- Área Principal -->
         <main class="main-content">
-            <!-- Card Superior da Música Atual (Capa emoldurada + Títulos) -->
+            <!-- Card Superior da Música Atual (Capa + Título + Resumo) -->
             <div class="now-playing-card">
-                <div class="card-header-top">
-                    <span id="card-top-title">WHISKEY AND DUST</span>
-                    <span id="card-top-artist">- THE DUSTY OUTLAWS -</span>
-                </div>
                 <div class="card-body-content">
-                    <img id="track-cover" src="audio/capa1.jpg" alt="Capa da música">
+                    <img id="track-cover" src="" alt="Capa da música">
                     <div class="track-details">
-                        <h1 id="track-title">Whiskey and Dust</h1>
-                        <p id="track-artist">The Dusty Outlaws</p>
-                        <p id="track-album-sub">Whiskey and Dust</p>
+                        <h1 id="track-title">Carregando...</h1>
+                        <p id="track-artist">...</p>
+                        
+                        <!-- Resumo da música logo abaixo -->
+                        <div class="track-summary-box">
+                            <p id="track-summary">...</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -71,15 +71,15 @@
             <audio id="audio-player"></audio>
             
             <div class="player-controls">
-                <button id="btn-prev" class="control-btn"><i data-lucide="skip-back"></i></button>
-                <button id="btn-play" class="control-btn play-btn"><i data-lucide="play"></i></button>
-                <button id="btn-next" class="control-btn"><i data-lucide="skip-forward"></i></button>
+                <button id="btn-prev" class="control-btn" title="Anterior"><i data-lucide="skip-back"></i></button>
+                <button id="btn-play" class="control-btn play-btn" title="Reproduzir/Pausar"><i data-lucide="play"></i></button>
+                <button id="btn-next" class="control-btn" title="Próxima"><i data-lucide="skip-forward"></i></button>
             </div>
 
             <div class="timeline-container">
-                <span id="current-time">1:15</span>
-                <input type="range" id="seek-bar" value="33" max="100">
-                <span id="duration">3:45</span>
+                <span id="current-time">0:00</span>
+                <input type="range" id="seek-bar" value="0" max="100">
+                <span id="duration">0:00</span>
             </div>
 
             <div class="volume-container">
@@ -89,7 +89,7 @@
         </footer>
 
         <!-- Botão Flutuante para Celular -->
-        <button class="floating-playlist-btn" id="open-sidebar">
+        <button class="floating-playlist-btn" id="open-sidebar" title="Abrir Playlist">
             <i data-lucide="disc"></i>
         </button>
     </div>
