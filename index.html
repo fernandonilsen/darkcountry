@@ -10,70 +10,76 @@
 </head>
 <body>
     <div class="app-container">
-        <!-- Sidebar: Visível na Esquerda no Desktop / Como Aba no Celular -->
-       <aside class="sidebar active-tab" id="tab-playlist">
-    <div class="logo">
-        <i data-lucide="skull"></i>
-        <h2>Dark Country</h2>
-    </div>
-
-    <!-- Contador de Visitantes -->
-    <div class="visitor-counter">
-        <i data-lucide="eye"></i>
-        <span>Visitantes: <strong id="visit-count">...</strong></span>
-    </div>
-
-    <ul id="playlist-list" class="playlist">
-        <!-- Músicas carregadas via JS -->
-    </ul>
-</aside>
+        <!-- Sidebar Esquerda (Playlist e Contador) -->
+        <aside class="sidebar" id="tab-playlist">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <i data-lucide="skull"></i>
+                    <h2>Dark Country Vault</h2>
+                </div>
+                <button class="close-btn" id="close-sidebar"><i data-lucide="x"></i></button>
+            </div>
+            
             <ul id="playlist-list" class="playlist">
                 <!-- Músicas inseridas via JS -->
             </ul>
+
+            <!-- Caixa de Visitantes (Exatamente como na imagem) -->
+            <div class="visitor-box">
+                <span class="visitor-title">Visitor Counter</span>
+                <span id="visit-count" class="visitor-count">4,321 Views</span>
+            </div>
         </aside>
 
-        <!-- Conteúdo Principal / Letras -->
-        <main class="main-content" id="tab-lyrics">
-            <!-- Header da Música Atual -->
-            <header class="now-playing-header">
-                <img id="track-cover" src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=300" alt="Capa da música">
-                <div class="track-details">
-                    <h1 id="track-title">Selecione uma música</h1>
-                    <p id="track-artist">Artista</p>
+        <!-- Área Principal -->
+        <main class="main-content">
+            <!-- Card Superior da Música Atual (Capa emoldurada + Títulos) -->
+            <div class="now-playing-card">
+                <div class="card-header-top">
+                    <span id="card-top-title">WHISKEY AND DUST</span>
+                    <span id="card-top-artist">- THE DUSTY OUTLAWS -</span>
                 </div>
-            </header>
+                <div class="card-body-content">
+                    <img id="track-cover" src="audio/capa1.jpg" alt="Capa da música">
+                    <div class="track-details">
+                        <h1 id="track-title">Whiskey and Dust</h1>
+                        <p id="track-artist">The Dusty Outlaws</p>
+                        <p id="track-album-sub">Whiskey and Dust</p>
+                    </div>
+                </div>
+            </div>
 
-            <!-- Seção de Letras -->
+            <!-- Seção de Letras (Pergaminhos Duplos) -->
             <section class="lyrics-container">
                 <div class="lyrics-box">
-                    <h3>Original</h3>
+                    <h3>Original Lyrics</h3>
                     <div id="lyrics-original" class="lyrics-text">
-                        <p class="placeholder">Selecione uma faixa para ver a letra.</p>
+                        <p class="placeholder">Selecione uma faixa...</p>
                     </div>
                 </div>
                 <div class="lyrics-box">
                     <h3>Tradução (PT-BR)</h3>
                     <div id="lyrics-translation" class="lyrics-text">
-                        <p class="placeholder">Selecione uma faixa para ver a tradução.</p>
+                        <p class="placeholder">A tradução aparecerá aqui...</p>
                     </div>
                 </div>
             </section>
         </main>
 
-        <!-- Player Fixo de Áudio -->
+        <!-- Player Fixo no Rodapé -->
         <footer class="player-bar">
             <audio id="audio-player"></audio>
-
+            
             <div class="player-controls">
-                <button id="btn-prev" class="control-btn" aria-label="Anterior"><i data-lucide="skip-back"></i></button>
-                <button id="btn-play" class="control-btn play-btn" aria-label="Reproduzir/Pausar"><i data-lucide="play"></i></button>
-                <button id="btn-next" class="control-btn" aria-label="Próxima"><i data-lucide="skip-forward"></i></button>
+                <button id="btn-prev" class="control-btn"><i data-lucide="skip-back"></i></button>
+                <button id="btn-play" class="control-btn play-btn"><i data-lucide="play"></i></button>
+                <button id="btn-next" class="control-btn"><i data-lucide="skip-forward"></i></button>
             </div>
 
             <div class="timeline-container">
-                <span id="current-time">0:00</span>
-                <input type="range" id="seek-bar" value="0" max="100">
-                <span id="duration">0:00</span>
+                <span id="current-time">1:15</span>
+                <input type="range" id="seek-bar" value="33" max="100">
+                <span id="duration">3:45</span>
             </div>
 
             <div class="volume-container">
@@ -82,17 +88,10 @@
             </div>
         </footer>
 
-        <!-- Navegação Inferior Exclusiva do Mobile -->
-        <nav class="mobile-nav">
-            <button class="nav-tab active" data-target="tab-playlist">
-                <i data-lucide="disc"></i>
-                <span>Músicas</span>
-            </button>
-            <button class="nav-tab" data-target="tab-lyrics">
-                <i data-lucide="file-text"></i>
-                <span>Letra</span>
-            </button>
-        </nav>
+        <!-- Botão Flutuante para Celular -->
+        <button class="floating-playlist-btn" id="open-sidebar">
+            <i data-lucide="disc"></i>
+        </button>
     </div>
 
     <!-- Scripts JavaScript -->

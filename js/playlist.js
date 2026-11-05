@@ -3,6 +3,7 @@ const songs = [
         id: 1,
         title: "Say It Again",
         artist: "Diga denovo",
+        description: "Uma balada sombria sobre vingança no deserto.",
         cover: "audio/dark horizon.png",
         audioSrc: "audio/Say It Again.mp4",
         lyricsOriginal: `[Verse 1]

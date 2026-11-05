@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Referências aos elementos do DOM
     const audio = document.getElementById("audio-player");
     const playBtn = document.getElementById("btn-play");
     const prevBtn = document.getElementById("btn-prev");
@@ -8,38 +7,47 @@ document.addEventListener("DOMContentLoaded", () => {
     const volumeBar = document.getElementById("volume-bar");
     const playlistList = document.getElementById("playlist-list");
 
-    // Elementos das abas Mobile
-    const navTabs = document.querySelectorAll('.nav-tab');
-    const tabPlaylist = document.getElementById('tab-playlist');
-    const tabLyrics = document.getElementById('tab-lyrics');
+    const sidebar = document.getElementById("tab-playlist");
+    const openSidebarBtn = document.getElementById("open-sidebar");
+    const closeSidebarBtn = document.getElementById("close-sidebar");
 
     let currentSongIndex = 0;
     let isPlaying = false;
 
-    // 1. Renderizar a Lista de Músicas (Playlist)
     function renderPlaylist() {
         playlistList.innerHTML = "";
         songs.forEach((song, index) => {
             const li = document.createElement("li");
-            li.textContent = `${song.title} - ${song.artist}`;
             if (index === currentSongIndex) li.classList.add("active");
+            
+            li.innerHTML = `
+                <div class="song-main-info">
+                    <span class="song-title">${song.title}</span>
+                    <span class="song-artist">${song.artist}</span>
+                </div>
+                ${song.description ? `<span class="song-inline-desc">${song.description}</span>` : ''}
+            `;
             
             li.addEventListener("click", () => {
                 loadSong(index, true);
-                switchToLyricsTabOnMobile(); // Muda para a aba de letra no celular
+                closeMobileSidebar();
             });
             playlistList.appendChild(li);
         });
     }
 
-    // 2. Carregar a Música Selecionada
     function loadSong(index, shouldPlay = false) {
         currentSongIndex = index;
         const song = songs[currentSongIndex];
 
+        // Atualiza elementos da interface visual
         document.getElementById("track-title").textContent = song.title;
         document.getElementById("track-artist").textContent = song.artist;
+        document.getElementById("track-album-sub").textContent = song.title;
+        document.getElementById("card-top-title").textContent = song.title.toUpperCase();
+        document.getElementById("card-top-artist").textContent = `- ${song.artist.toUpperCase()} -`;
         document.getElementById("track-cover").src = song.cover;
+        
         document.getElementById("lyrics-original").textContent = song.lyricsOriginal;
         document.getElementById("lyrics-translation").textContent = song.lyricsTranslation;
         
@@ -51,7 +59,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    // 3. Controles de Reprodução
     function playAudio() {
         isPlaying = true;
         audio.play();
@@ -81,7 +88,6 @@ document.addEventListener("DOMContentLoaded", () => {
         loadSong(currentSongIndex, true);
     });
 
-    // 4. Progresso do Áudio e Volume
     audio.addEventListener("timeupdate", () => {
         if (audio.duration) {
             const progress = (audio.currentTime / audio.duration) * 100;
@@ -107,35 +113,14 @@ document.addEventListener("DOMContentLoaded", () => {
         return `${mins}:${secs < 10 ? "0" : ""}${secs}`;
     }
 
-    // 5. Troca de Abas no Celular (Músicas / Letra)
-    navTabs.forEach(tab => {
-        tab.addEventListener('click', () => {
-            const targetId = tab.getAttribute('data-target');
+    if (openSidebarBtn) openSidebarBtn.addEventListener("click", () => sidebar.classList.add("open"));
+    if (closeSidebarBtn) closeSidebarBtn.addEventListener("click", () => sidebar.classList.remove("open"));
 
-            navTabs.forEach(t => t.classList.remove('active'));
-            tab.classList.add('active');
-
-            if (targetId === 'tab-playlist') {
-                tabPlaylist.classList.add('active-tab');
-                tabLyrics.classList.remove('active-tab');
-            } else {
-                tabLyrics.classList.add('active-tab');
-                tabPlaylist.classList.remove('active-tab');
-            }
-        });
-    });
-
-    function switchToLyricsTabOnMobile() {
+    function closeMobileSidebar() {
         if (window.innerWidth <= 768) {
-            navTabs.forEach(t => t.classList.remove('active'));
-            const lyricsTabBtn = document.querySelector('[data-target="tab-lyrics"]');
-            if (lyricsTabBtn) lyricsTabBtn.classList.add('active');
-
-            tabPlaylist.classList.remove('active-tab');
-            tabLyrics.classList.add('active-tab');
+            sidebar.classList.remove("open");
         }
     }
 
-    // Inicializa a primeira música
     loadSong(0);
 });
