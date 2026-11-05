@@ -3,7 +3,7 @@ const songs = [
         id: 1,
         title: "Say It Again",
         artist: "Diga denovo",
-        description: "É um conto épico sobre superar a escuridão da jornada para alcançar a luz e a paz do lar.",
+        description: "Esta música conta a história de uma fuga desesperada e vitoriosa contra forças sombrias em uma noite fria. É um conto épico sobre superar a escuridão da jornada para alcançar a luz e a paz do lar.",
         cover: "audio/dark horizon.png",
         audioSrc: "audio/Say It Again.mp4",
         lyricsOriginal: `[Verse 1]
@@ -139,6 +139,7 @@ Agora a escuridão não pode me arrastar para baixo`
         id: 2,
         title: "Graveyard Shift",
         artist: "Turno do Cemitério",
+        description: "A música aborda a dura realidade da exaustão no trabalho e a alienação gerada por turnos noturnos exaustivos em ambientes industriais. O tema central gira em torno de um trabalhador preso a uma rotina mecânica e desgastante, sentindo que está a trocar a sua juventude e a sua vida pessoal em troca de sobrevivência financeira.",
         cover: "audio/graveyard.png",
         audioSrc: "audio/GraveYard Shift.mp3",
         lyricsOriginal: `[Verse 1]
@@ -226,6 +227,7 @@ Hora de desaparecer.  `
     id: 3,
         title: "I Don't Knock, I Kick Those In",
         artist: "Eu não bato, eu chuto a porta",
+        description: "A letra retrata uma figura implacável e intimidadora, que não perde tempo pedindo permissão ou negociando. O clima geral é de confronto total, falta de misericórdia e justiça implacável, onde o medo dos oponentes é evidente em cada verso",
         cover: "audio/idontknock.png",       // Nome exato da imagem na pasta audio
         audioSrc: "audio/I Don't Knock.mp3",   // Nome exato do mp3 na pasta audio
         lyricsOriginal: `[Verse 1]
