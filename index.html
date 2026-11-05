@@ -11,11 +11,22 @@
 <body>
     <div class="app-container">
         <!-- Sidebar: Visível na Esquerda no Desktop / Como Aba no Celular -->
-        <aside class="sidebar active-tab" id="tab-playlist">
-            <div class="logo">
-                <i data-lucide="skull"></i>
-                <h2>Dark Country</h2>
-            </div>
+       <aside class="sidebar active-tab" id="tab-playlist">
+    <div class="logo">
+        <i data-lucide="skull"></i>
+        <h2>Dark Country</h2>
+    </div>
+
+    <!-- Contador de Visitantes -->
+    <div class="visitor-counter">
+        <i data-lucide="eye"></i>
+        <span>Visitantes: <strong id="visit-count">...</strong></span>
+    </div>
+
+    <ul id="playlist-list" class="playlist">
+        <!-- Músicas carregadas via JS -->
+    </ul>
+</aside>
             <ul id="playlist-list" class="playlist">
                 <!-- Músicas inseridas via JS -->
             </ul>
