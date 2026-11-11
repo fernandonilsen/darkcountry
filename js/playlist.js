@@ -352,7 +352,147 @@ Chute-as para baixo, deixe o fogo rolar
 Cada fechadura não pode segurar esta alma
 Da sujeira até o fim
 Eu não bato, eu arrombo com um chute`
-    }
-    
+    },
+    {
+        id: 4,
+        title: "This Horse Won't Stop",
+        artist: "Este cavalo não vai parar",
+        description: "A música retrata uma jornada sombria, obsessiva e fora de controle. O cavalo funciona como uma metáfora para uma força imparável — como a culpa, a loucura, o destino ou um vício — que arrasta o narrador através do pesadelo, por mais que ele tente lutar ou puxar as rédeas.",
+        cover: "audio/thishorse.png",
+        audioSrc: "audio/thishorsewontstop.mp3",
+        lyricsOriginal: `[verse 1]
+Cold wind cutting through my coat
+Frozen breath inside my throat
+Iron hooves on broken stone
+Like a drum inside my bones
+Black sky hanging low and tight
+No more stars, no guiding light
+Something riding next to me
+But I don't dare look to see
 
+[pre-chorus]
+Hear it breathing down my spine
+Feel it crawling in my mind
+
+[chorus]
+This horse won't stop
+Even when I scream
+This horse won't stop
+Tearing through my dreams
+This horse won't stop
+Rolling through my soul
+This horse won't stop
+And I'm losing control
+
+[verse 2]
+Through the fire, through the flood
+Through the dirt and through the blood
+Every road just feels the same
+Every mile feeds the flame
+Hands are shaking on the reins
+But it don't obey the pain
+Like it knows I can't escape
+Like it chose my final fate
+Hear it pounding in my chest
+No more time, no place to rest
+
+[chorus]
+This horse won't stop
+Even when I scream
+This horse won't stop
+Tearing through my dreams
+This horse won't stop
+Rolling through my soul
+This horse won't stop
+And I'm losing control
+I pull the reins
+It drags me on
+
+[bridge]
+I try to fight
+But I'm too gone
+No way to turn
+No way to fall
+This thing ain't mine
+Not mine at all
+
+[final chorus]
+This horse won't stop
+Even when I scream
+This horse won't stop
+Burning everything
+This horse won't stop
+Rolling through my soul
+This horse won't stop
+Till it takes control`,
+
+        lyricsTranslation: `[verso 1]
+Vento frio cortando meu casaco
+Respiração congelada na minha garganta
+Cascos de ferro sobre pedra quebrada
+Como um tambor dentro dos meus ossos       
+Céu negro pairando baixo e apertado
+Chega de estrelas, chega de luz guia
+Algo cavalgando ao meu lado
+Mas não me atrevo a olhar para ver
+
+[pré-refrão]
+Ouço respirando pela minha espinha
+Sinto rastejando em minha mente
+
+[refrão]
+Este cavalo não vai parar
+Mesmo quando eu grito
+Este cavalo não vai parar
+Rasgando meus sonhos
+Este cavalo não vai parar
+Percorrendo minha alma
+Este cavalo não vai parar
+Eu estou perdendo o controle
+
+[verso 2]
+Através do fogo, através da inundação
+Através da sujeira e através do sangue
+Todas as estradas parecem iguais
+Cada quilômetro alimenta a chama
+As mãos tremem nas rédeas
+Mas não obedece à dor
+Como se soubesse que eu não consigo escapar
+Como se tivesse escolhido meu destino final
+
+[pré-refrão]
+Ouço as batidas fortes no meu peito
+Não há mais tempo, nem lugar para descansar
+
+[refrão]
+Este cavalo não vai parar
+Mesmo quando eu grito
+Este cavalo não vai parar
+Rasgando meus sonhos
+Este cavalo não vai parar
+Percorrendo minha alma
+Este cavalo não vai parar
+Eu estou perdendo o controle
+Eu puxo as rédeas
+Isso me arrasta para
+
+[ponte]
+Eu tento lutar
+Mas eu já estou perdido demais
+Não há como voltar
+Não há como cair
+Isso não é meu
+De jeito nenhum
+
+[refrão final]
+Este cavalo não vai parar
+Mesmo quando eu grito
+Este cavalo não vai parar
+Rasgando meus sonhos
+Este cavalo não vai parar
+Percorrendo minha alma
+Este cavalo não vai parar
+Até que assuma o controle`
+    }
 ];
+
