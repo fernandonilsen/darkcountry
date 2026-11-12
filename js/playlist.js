@@ -405,10 +405,10 @@ This horse won't stop
 Rolling through my soul
 This horse won't stop
 And I'm losing control
-I pull the reins
-It drags me on
 
 [bridge]
+I pull the reins
+It drags me on
 I try to fight
 But I'm too gone
 No way to turn
@@ -473,10 +473,10 @@ Este cavalo não vai parar
 Percorrendo minha alma
 Este cavalo não vai parar
 Eu estou perdendo o controle
-Eu puxo as rédeas
-Isso me arrasta para
 
 [ponte]
+Eu puxo as rédeas
+Isso me arrasta para
 Eu tento lutar
 Mas eu já estou perdido demais
 Não há como voltar
