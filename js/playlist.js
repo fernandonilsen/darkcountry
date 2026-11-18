@@ -508,7 +508,7 @@ Até que assuma o controle`
         artist: "Cavalgue pelo Inferno",
         description: "Simboliza a superação de provações extremas, o confronto com os próprios medos ou demónios do passado e a determinação de sobreviver a uma travessia infernal a todo o custo.",
         cover: "audio/ridehell.png",
-        audioSrc: "audio/ride through hell.mp3",
+        audioSrc: "audio/Ride through hell.mp3",
         lyricsOriginal: `[verse 1]
 Ride
 Ride
