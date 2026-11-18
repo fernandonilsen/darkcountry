@@ -135,6 +135,8 @@ Ouçam meu cavalo, ele me trouxe para casa
 Vão se foder
 Agora a escuridão não pode me arrastar para baixo`
     },
+
+
     {
         id: 2,
         title: "Graveyard Shift",
@@ -223,6 +225,8 @@ Onde o meu futuro descansa!
 O relógio bate as cinco,
 Hora de desaparecer.  `
     },
+
+
     {
     id: 3,
         title: "I Don't Knock, I Kick Those In",
@@ -353,6 +357,8 @@ Cada fechadura não pode segurar esta alma
 Da sujeira até o fim
 Eu não bato, eu arrombo com um chute`
     },
+
+
     {
         id: 4,
         title: "This Horse Won't Stop",
@@ -493,6 +499,233 @@ Este cavalo não vai parar
 Percorrendo minha alma
 Este cavalo não vai parar
 Até que assuma o controle`
+    },
+
+
+    {
+        id: 5,
+        title: "Ride Through Hell",
+        artist: "Cavalgue pelo Inferno",
+        description: "A letra transmite uma atmosfera de tensão e desafio extremo, focando na resiliência e na determinação de seguir em frente apesar dos perigos e do cenário sombrio.",
+        cover: "audio/ridethroughhell.png",
+        audioSrc: "audio/ride through hell.mp3",
+        lyricsOriginal: `[verse 1]
+Ride
+Ride
+Ride
+Horses run fast
+Brown burn red
+Moon up high
+Sky feel dead
+Trees stand still
+No wind, no sound
+Three men hanging, feet off the ground
+
+[pre-chorus]
+I hear my name
+In the night
+Something close
+Ain't feeling right
+
+[chorus]
+Ride through hell
+Don't look back
+Dead men riding
+On my track
+Ride through hell
+Burn that sky
+Ain't no mercy
+Ride or die
+
+[verse 2]
+Rope still swinging from that tree
+Want all of them to look like me
+Whose hit-fire sparks go wild here
+That laugh ain't no child, they get close
+I feel that breath
+Cold as dirt
+Smell like death
+
+[final chorus]
+Ride through hell
+Don't look back
+Dead men riding
+On my track
+Ride through hell
+Burn that sky
+Ain't no mercy
+Ride or die
+Ride through hell
+Ride through hell
+Don't look back, don't you dare
+Old devil right there in the air
+Ride, don't stop, ride`,
+
+        lyricsTranslation: `[Verso 1]
+Cavalgue
+Cavalgue
+Cavalgue
+Cavalos correm rápido
+O castanho arde em vermelho
+Lua lá no alto
+O céu parece morto
+Árvores parmanecem imóveis
+Sem vento, sem som
+Três homens pendurados, seus pés fora do chão
+
+Pré-Refrão
+Ouço o meu nome
+Esta noite
+Algo está perto
+Não me sinto bem
+
+Refrão
+Cavalgue pelo inferno
+Não olhe para trás
+Homens mortos cavalgando
+Na minha trilha
+Cavalgue pelo inferno
+Queime esse céu
+Não há misericórdia
+Cavalgue ou morra
+
+[Verso 2]
+A corda ainda balança naquela árvore
+Querem que todos eles se pareçam comigo
+Cuja faíscas de fogo se espalham aqui
+Essa risada não é de criança, eles aproximam-se
+Sinto essa respiração
+Fria como a terra
+Cheira a morte
+
+[Refrão Final]
+Cavalgue pelo inferno
+Não olhe para trás
+Homens mortos cavalgando
+Na minha trilha
+Cavalgue pelo inferno
+Queime esse céu
+Não há misericórdia
+Cavalgue ou morra
+Cavalgue pelo inferno
+Cavalgue pelo inferno
+Não olhe para trás, não se atreva
+O velho diabo está bem ali no ar
+Cavalgue, não pare, cavalgue`
+    },
+
+    {
+        id: 6,
+        title: "The Devil Owes Me",
+        artist: "O Diabo me Deve",
+        description: "A música retrata uma narrativa sombria sobre um pacto ou uma cobrança do diabo, onde o protagonista enfrenta o seu destino e tenta reclamar o que é seu, lidando com temas de arrependimento, dívidas e a luta contra forças sobrenaturais.",
+        cover: "audio/ridethroughhell.png",
+        audioSrc: "audio/The devil Owes me.mp3",
+        lyricsOriginal: `[Verse 1]
+He found me where the black creek bends
+Selling salvation he never intends
+He stole my sleep, he swallowed my years
+I kept the spark he couldn't make disappear
+
+[pre-Chorus]
+No forgiveness, no regret
+Open the gates and pay your debt
+
+[Chorus]
+The devil owes me!
+I came to collect
+For every crooked promise and count of effect
+He took my sleep, but he couldn't take me
+Hell's got a debt and the bill ain't paid, you know
+The devil owes me!
+
+[Verse 2]
+I crossed the line where the dead trees bow
+He heard my steps, he can hear them now
+He named my price from his burning throne
+I said you can't sell what you'll never own
+
+[pre-Chorus]
+No forgiveness, no regret
+I came alive to claim that debt
+
+[Chorus]
+The devil owes me!
+I came to collect
+For every crooked promise and count of effect
+He took my sleep, but he couldn't take me
+Hell's got a debt and the bill ain't paid, you know
+The devil owes me!
+
+[Bridge]
+I keep your conscience
+I keep your mercy
+I keep your gold
+Give back the fire
+You thought you owned
+
+[Final Chorus]
+The devil owes me!
+I came to collect, I'll broke his crown
+And I'll cancel the debt, he took my sleep
+But he couldn't break me
+I want the hell that ain't felt
+Honey, keep me to feel
+The devil owes me!
+Now pay up!`,
+
+        lyricsTranslation: `[Verso 1]
+Ele me encontrou onde o riacho negro faz a curva
+Vendendo a salvação que ele nunca teve intenção de dar
+Ele roubou o meu sono, engoliu os meus anos
+Mantive a chama que ele não conseguiu fazer desaparecer
+
+[Pré-Refrão]
+Sem perdão, sem arrependimento
+Abra os portões e pague sua dívida
+
+[Refrão]
+O diabo me deve!
+Eu vim cobrar
+Por cada promessa torta e cada consequência
+Ele roubou o meu sono, mas não conseguiu me levar
+O inferno tem uma dívida e a conta não está paga, você sabe
+O diabo me deve!
+
+[Verso 2]
+Cruzei a linha onde as árvores mortas se curvam
+Ele ouviu os meus passos, já os consegue ouvir agora
+Ele estipulou o meu preço do seu trono em chamas
+Eu disse: você não pode vender o que nunca vai possuir
+
+[Pré-Refrão]
+Sem perdão, sem arrependimento
+Voltei à vida para cobrar essa dívida
+
+[Refrão]
+O diabo me deve!
+Eu vim cobrar
+Por cada promessa torta e cada consequência
+Ele roubou o meu sono, mas não conseguiu me levar
+O inferno tem uma dívida e a conta não está paga, você sabe
+O diabo me deve!
+
+[ponte]
+Eu mantenho a consciência
+Eu mantenho a misericórdia
+Eu mantenho o ouro
+Devolva o fogo
+Que achava que possuía
+
+[Refrão Final]
+O diabo me deve!
+Eu vim cobrar, vou quebrar a sua coroa
+E vou cancelar a dívida, ele roubou o meu sono
+Mas não consegue me quebrar
+Eu quero o inferno que não sentido
+Querida, me deixe sentir
+O diabo me deve!
+Agora pague!`
     }
 ];
 
