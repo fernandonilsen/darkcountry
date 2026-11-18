@@ -619,7 +619,7 @@ Cavalgue, não pare, cavalgue`
         title: "The Devil Owes Me",
         artist: "O Diabo me Deve",
         description: "A música retrata uma narrativa sombria sobre um pacto ou uma cobrança do diabo, onde o protagonista enfrenta o seu destino e tenta reclamar o que é seu, lidando com temas de arrependimento, dívidas e a luta contra forças sobrenaturais.",
-        cover: "audio/ridethroughhell.png",
+        cover: "audio/devilowes.png",
         audioSrc: "audio/The devil Owes me.mp3",
         lyricsOriginal: `[Verse 1]
 He found me where the black creek bends
