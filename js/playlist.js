@@ -656,6 +656,7 @@ For every crooked promise and count of effect
 He took my sleep, but he couldn't take me
 Hell's got a debt and the bill ain't paid, you know
 The devil owes me!
+The devil owes me!
 
 [Bridge]
 I keep your conscience
@@ -691,6 +692,7 @@ Por cada promessa torta e cada consequência
 Ele roubou o meu sono, mas não conseguiu me levar
 O inferno tem uma dívida e a conta não está paga, você sabe
 O diabo me deve!
+O diabo me deve!
 
 [Verso 2]
 Cruzei a linha onde as árvores mortas se curvam
@@ -722,7 +724,7 @@ O diabo me deve!
 Eu vim cobrar, vou quebrar a sua coroa
 E vou cancelar a dívida, ele roubou o meu sono
 Mas não consegue me quebrar
-Eu quero o inferno que não sentido
+Eu quero o inferno que não senti
 Querida, me deixe sentir
 O diabo me deve!
 Agora pague!`
