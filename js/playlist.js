@@ -728,6 +728,6 @@ Eu quero o inferno que não senti
 Querida, me deixe sentir
 O diabo me deve!
 Agora pague!`
-    }
+    },
 ];
 
