@@ -620,7 +620,7 @@ Cavalgue, não pare, cavalgue`
         artist: "O Diabo me Deve",
         description: "Representa a resiliência, a recuperação do poder pessoal e a revolta contra a manipulação ou o sofrimento passado. Mesmo após perdas difíceis, a chama interior sobreviveu, transformando a vítima no cobrador que exige justiça e destrói o domínio que o mal tinha sobre si.",
         cover: "audio/devilowes.png",
-        audioSrc: "audio/The devil Owes Me.mp3",
+        audioSrc: "audio/thedevilowesme.mp3",
         lyricsOriginal: `[Verse 1]
 He found me where the black creek bends
 Selling salvation he never intends
