@@ -506,8 +506,8 @@ Até que assuma o controle`
         id: 5,
         title: "Ride Through Hell",
         artist: "Cavalgue pelo Inferno",
-        description: "A letra transmite uma atmosfera de tensão e desafio extremo, focando na resiliência e na determinação de seguir em frente apesar dos perigos e do cenário sombrio.",
-        cover: "audio/ridethroughhell.png",
+        description: "Simboliza a superação de provações extremas, o confronto com os próprios medos ou demónios do passado e a determinação de sobreviver a uma travessia infernal a todo o custo.",
+        cover: "audio/ridehell.png",
         audioSrc: "audio/ride through hell.mp3",
         lyricsOriginal: `[verse 1]
 Ride
@@ -618,7 +618,7 @@ Cavalgue, não pare, cavalgue`
         id: 6,
         title: "The Devil Owes Me",
         artist: "O Diabo me Deve",
-        description: "A música retrata uma narrativa sombria sobre um pacto ou uma cobrança do diabo, onde o protagonista enfrenta o seu destino e tenta reclamar o que é seu, lidando com temas de arrependimento, dívidas e a luta contra forças sobrenaturais.",
+        description: "Representa a resiliência, a recuperação do poder pessoal e a revolta contra a manipulação ou o sofrimento passado. Mesmo após perdas difíceis, a chama interior sobreviveu, transformando a vítima no cobrador que exige justiça e destrói o domínio que o mal tinha sobre si.",
         cover: "audio/devilowes.png",
         audioSrc: "audio/The devil Owes me.mp3",
         lyricsOriginal: `[Verse 1]
